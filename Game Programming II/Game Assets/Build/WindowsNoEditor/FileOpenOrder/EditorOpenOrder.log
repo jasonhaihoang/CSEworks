@@ -1,0 +1,1169 @@
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/SpaceWars.uproject" 1
+"../../../Engine/Plugins/2D/Paper2D/Paper2D.uplugin" 2
+"../../../Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin" 3
+"../../../Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin" 4
+"../../../Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin" 5
+"../../../Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin" 6
+"../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin" 7
+"../../../Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin" 8
+"../../../Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin" 9
+"../../../Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin" 10
+"../../../Engine/Plugins/Editor/PluginsEditor/PluginsEditor.uplugin" 11
+"../../../Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin" 12
+"../../../Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin" 13
+"../../../Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin" 14
+"../../../Engine/Plugins/Experimental/CodeView/CodeView.uplugin" 15
+"../../../Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin" 16
+"../../../Engine/Plugins/Experimental/Phya/Phya.uplugin" 17
+"../../../Engine/Plugins/Experimental/SteamVR/SteamVR.uplugin" 18
+"../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin" 19
+"../../../Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin" 20
+"../../../Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin" 21
+"../../../Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin" 22
+"../../../Engine/Plugins/Messaging/ShmMessaging/ShmMessaging.uplugin" 23
+"../../../Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin" 24
+"../../../Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin" 25
+"../../../Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin" 26
+"../../../Engine/Plugins/Runtime/Analytics/Apsalar/IOSApsalar/IOSApsalar.uplugin" 27
+"../../../Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin" 28
+"../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin" 29
+"../../../Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin" 30
+"../../../Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin" 31
+"../../../Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin" 32
+"../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin" 33
+"../../../Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin" 34
+"../../../Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin" 35
+"../../../Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin" 36
+"../../../Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin" 37
+"../../../Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin" 38
+"../../../Engine/Plugins/Runtime/TwitchLiveStreaming/TwitchLiveStreaming.uplugin" 39
+"../../../Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin" 40
+"../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin" 41
+"../../../Engine/Plugins/ScriptGeneratorPlugin/ScriptGeneratorPlugin.uplugin" 42
+"../../../Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin" 43
+"../../../Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin" 44
+"..\..\..\Engine\Content\Internationalization\icudt53l\cnvalias.icu" 45
+"..\..\..\Engine\Content\Internationalization\icudt53l\en_US_POSIX.res" 46
+"..\..\..\Engine\Content\Internationalization\icudt53l\pool.res" 47
+"..\..\..\Engine\Content\Internationalization\icudt53l\en_US.res" 48
+"..\..\..\Engine\Content\Internationalization\icudt53l\en.res" 49
+"..\..\..\Engine\Content\Internationalization\icudt53l\root.res" 50
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ucadata.icu" 51
+"..\..\..\Engine\Content\Internationalization\icudt53l\nfc.nrm" 52
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US_POSIX.res" 53
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en_US.res" 54
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\en.res" 55
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\root.res" 56
+"..\..\..\Engine\Content\Internationalization\icudt53l\numberingSystems.res" 57
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\supplementalData.res" 58
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\pool.res" 59
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\en.res" 60
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\root.res" 61
+"..\..\..\Engine\Content\Internationalization\icudt53l\plurals.res" 62
+"..\..\..\Engine\Content\Internationalization\icudt53l\windowsZones.res" 63
+"..\..\..\Engine\Content\Internationalization\icudt53l\zoneinfo64.res" 64
+"..\..\..\Engine\Content\Internationalization\icudt53l\keyTypeData.res" 65
+"..\..\..\Engine\Content\Internationalization\icudt53l\timezoneTypes.res" 66
+"..\..\..\Engine\Content\Internationalization\icudt53l\supplementalData.res" 67
+"..\..\..\Engine\Content\Internationalization\icudt53l\likelySubtags.res" 68
+"../../../Engine/Config/Base.ini" 69
+"../../../Engine/Config/BaseEngine.ini" 70
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Config/DefaultEngine.ini" 71
+"../../../Engine/Config/Windows/WindowsEngine.ini" 72
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Engine.ini" 73
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Engine.ini" 74
+"../../../Engine/Config/BaseGame.ini" 75
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Config/DefaultGame.ini" 76
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Game.ini" 77
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Game.ini" 78
+"../../../Engine/Config/BaseInput.ini" 79
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Config/DefaultInput.ini" 80
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Input.ini" 81
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Input.ini" 82
+"../../../Engine/Config/BaseEditor.ini" 83
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Config/DefaultEditor.ini" 84
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Editor.ini" 85
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Editor.ini" 86
+"../../../Engine/Config/BaseEditorLayout.ini" 87
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/EditorLayout.ini" 88
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/EditorLayout.ini" 89
+"../../../Engine/Config/BaseEditorUserSettings.ini" 90
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/EditorUserSettings.ini" 91
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/EditorUserSettings.ini" 92
+"../../../Engine/Config/BaseEditorKeyBindings.ini" 93
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/EditorKeyBindings.ini" 94
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/EditorKeyBindings.ini" 95
+"../../../Engine/Config/BaseCompat.ini" 96
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Compat.ini" 97
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Compat.ini" 98
+"../../../Engine/Config/BaseLightmass.ini" 99
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Lightmass.ini" 100
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Lightmass.ini" 101
+"../../../Engine/Config/BaseScalability.ini" 102
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/Scalability.ini" 103
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/Scalability.ini" 104
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/GameUserSettings.ini" 105
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/GameUserSettings.ini" 106
+"../../../Engine/Config/BaseDeviceProfiles.ini" 107
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/DeviceProfiles.ini" 108
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/DeviceProfiles.ini" 109
+"../../../Engine/Config/ConsoleVariables.ini" 110
+"..\..\..\Engine\Content\Internationalization\icudt53l\es.res" 111
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\es.res" 112
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\es.res" 113
+"..\..\..\Engine\Content\Internationalization\icudt53l\es_ES.res" 114
+"..\..\..\Engine\Content\Internationalization\icudt53l\ja.res" 115
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ja.res" 116
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\ja.res" 117
+"..\..\..\Engine\Content\Internationalization\icudt53l\ja_JP.res" 118
+"..\..\..\Engine\Content\Internationalization\icudt53l\ko.res" 119
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\ko.res" 120
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\ko.res" 121
+"..\..\..\Engine\Content\Internationalization\icudt53l\ko_KR.res" 122
+"..\..\..\Engine\Content\Internationalization\icudt53l\pt_BR.res" 123
+"..\..\..\Engine\Content\Internationalization\icudt53l\pt.res" 124
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\pt.res" 125
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\pt.res" 126
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_CN.res" 127
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_Hans_CN.res" 128
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh_Hans.res" 129
+"..\..\..\Engine\Content\Internationalization\icudt53l\zh.res" 130
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_CN.res" 131
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_Hans_CN.res" 132
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh_Hans.res" 133
+"..\..\..\Engine\Content\Internationalization\icudt53l\coll\zh.res" 134
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_CN.res" 135
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_Hans_CN.res" 136
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh_Hans.res" 137
+"..\..\..\Engine\Content\Internationalization\icudt53l\curr\zh.res" 138
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Content/Localization/Editor/en/Editor.locres" 139
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Content/Localization/EditorTutorials/en/EditorTutorials.locres" 140
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Content/Localization/Engine/en/Engine.locres" 141
+"../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf" 142
+"../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf" 143
+"../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf" 144
+"../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf" 145
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSpriteVertexFactory.usf" 146
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VertexFactoryCommon.usf" 147
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Common.usf" 148
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderVersion.usf" 149
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Definitions.usf" 150
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Random.usf" 151
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleVertexFactoryCommon.usf" 152
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleGPUSpriteVertexFactory.usf" 153
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleBeamTrailVertexFactory.usf" 154
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VectorFieldVisualizationVertexFactory.usf" 155
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LocalVertexFactory.usf" 156
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LocalVertexFactoryCommon.usf" 157
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MeshParticleVertexFactory.usf" 158
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinVertexFactory.usf" 159
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinCacheCommon.usf" 160
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LandscapeVertexFactory.usf" 161
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SlateElementPixelShader.usf" 162
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MaterialTemplate.usf" 163
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOfFieldCommon.usf" 164
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SpeedTreeCommon.usf" 165
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmosphereCommon.usf" 166
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCommon.usf" 167
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredShadingCommon.usf" 168
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightAccumulator.usf" 169
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SlateVertexShader.usf" 170
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/OneColorShader.usf" 171
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ResolveVertexShader.usf" 172
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ResolvePixelShader.usf" 173
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VisualizeTexture.usf" 174
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenSpaceReflections.usf" 175
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BRDF.usf" 176
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MonteCarlo.usf" 177
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FilterVertexShader.usf" 178
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FilterPixelShader.usf" 179
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessVisualizeHDR.usf" 180
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogramCommon.usf" 181
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TonemapCommon.usf" 182
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MiniFontCommon.usf" 183
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessVisualizeBuffer.usf" 184
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessUpscale.usf" 185
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTonemap.usf" 186
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTestImage.usf" 187
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTemporalAA.usf" 188
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessTemporalCommon.usf" 189
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSubsurface.usf" 190
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SeparableSSS.usf" 191
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSelectionOutline.usf" 192
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessSceneColorFringe.usf" 193
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessNoiseBlur.usf" 194
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMotionBlur.usf" 195
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MorpheusInclude.usf" 196
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMobile.usf" 197
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessMaterialShaders.usf" 198
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLensFlares.usf" 199
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLensBlur.usf" 200
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBloom.usf" 201
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHMD.usf" 202
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogramReduce.usf" 203
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessHistogram.usf" 204
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessGBufferHints.usf" 205
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessEyeAdaptation.usf" 206
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessDownsample.usf" 207
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessDOF.usf" 208
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCompositeEditorPrimitives.usf" 209
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessCombineLUTs.usf" 210
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBusyWait.usf" 211
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessBokehDOF.usf" 212
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FXAAShader.usf" 213
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Fxaa3_11.usf" 214
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessPassThrough.usf" 215
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessLpvIndirect.usf" 216
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightingCommon.usf" 217
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DynamicLightingCommon.usf" 218
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/IESLightProfilesCommon.usf" 219
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVFinalPass.usf" 220
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVCommon.usf" 221
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredDecal.usf" 222
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessAmbientOcclusion.usf" 223
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PostProcessAmbient.usf" 224
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/CubemapCommon.usf" 225
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VelocityShader.usf" 226
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/Tessellation.usf" 227
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/FlatTessellation.usf" 228
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PNTriangles.usf" 229
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentLightingShaders.usf" 230
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SHCommon.usf" 231
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionCommon.usf" 232
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentLightInjectionShaders.usf" 233
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionCommon.usf" 234
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TranslucentShadowDepthShaders.usf" 235
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthCommon.usf" 236
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/TiledDeferredLightShaders.usf" 237
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionPixelShader.usf" 238
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowFilteringCommon.usf" 239
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowProjectionVertexShader.usf" 240
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthPixelShader.usf" 241
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVWriteVplCommon.usf" 242
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVWriteCommon.usf" 243
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShadowDepthVertexShader.usf" 244
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityApplyPixelShader.usf" 245
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityApplyVertexShader.usf" 246
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ShaderComplexityAccumulatePixelShader.usf" 247
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HZBOcclusion.usf" 248
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/OcclusionQueryVertexShader.usf" 249
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HitProxyPixelShader.usf" 250
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HitProxyVertexShader.usf" 251
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentShaders.usf" 252
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentShared.usf" 253
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SkyLightingShared.usf" 254
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ReflectionEnvironmentComputeShaders.usf" 255
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightShaftShader.usf" 256
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/StationaryLightOverlapShaders.usf" 257
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightPixelShaders.usf" 258
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DeferredLightVertexShaders.usf" 259
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVVisualise.usf" 260
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVGeometryVolumeCommon.usf" 261
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVDirectLightInject.usf" 262
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVPropagate.usf" 263
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVBuildGeometryVolume.usf" 264
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVInject_AccumulateVplLists.usf" 265
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVInject_GenerateVplLists.usf" 266
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVClearLists.usf" 267
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LPVClear.usf" 268
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightMapDensityShader.usf" 269
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionPixelShader.usf" 270
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightFunctionVertexShader.usf" 271
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HdrCustomResolveShaders.usf" 272
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GPUBenchmark.usf" 273
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GammaCorrection.usf" 274
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingPixelShader.usf" 275
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingCommon.usf" 276
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/LightmapCommon.usf" 277
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassForForwardShadingVertexShader.usf" 278
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogCommon.usf" 279
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogPixelShader.usf" 280
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/HeightFogVertexShader.usf" 281
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistortAccumulatePS.usf" 282
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistortAccumulateVS.usf" 283
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistortApplyScreenPS.usf" 284
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SkyLighting.usf" 285
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldSurfaceCacheLighting.usf" 286
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldLightingShared.usf" 287
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldAOShared.usf" 288
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldSurfaceCacheLightingCompute.usf" 289
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DistanceFieldShadowing.usf" 290
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOnlyPixelShader.usf" 291
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DepthOnlyVertexShader.usf" 292
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/PositionOnlyDepthVertexShader.usf" 293
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/DownsampleDepthPixelShader.usf" 294
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassPixelShader.usf" 295
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassCommon.usf" 296
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassVertexShader.usf" 297
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassVertexCommon.usf" 298
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/BasePassTessellationShaders.usf" 299
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecompute.usf" 300
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecomputeCommon.usf" 301
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmospherePrecomputeInscatter.usf" 302
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/AtmosphericFogShader.usf" 303
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSortKeyGen.usf" 304
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleBoundsShader.usf" 305
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSimVisualizeShader.usf" 306
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleInjectionShader.usf" 307
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleSimulationShader.usf" 308
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ParticleCurveInjectionShader.usf" 309
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/VectorFieldCompositeShaders.usf" 310
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/UpdateTextureShaders.usf" 311
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementColorChannelMaskPixelShader.usf" 312
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementHitProxyPixelShader.usf" 313
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementPixelShader.usf" 314
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ColorUtils.usf" 315
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementVertexShader.usf" 316
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenVertexShader.usf" 317
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ScreenPixelShader.usf" 318
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/RadixSortShaders.usf" 319
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/GpuSkinCacheComputeShader.usf" 320
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/NullPixelShader.usf" 321
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/ClearReplacementShaders.usf" 322
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementTexture2DPreviewPixelShader.usf" 323
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/SimpleElementNormalMapPixelShader.usf" 324
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/meshpaintdilatepixelshader.usf" 325
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/meshpaintdilatevertexshader.usf" 326
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MeshPaintPixelShader.usf" 327
+"C:/Program Files (x86)/Epic Games/4.6/Engine/Binaries/Win64/../../../Engine/Shaders/MeshPaintVertexShader.usf" 328
+"../../../Engine/Config/Android/AndroidEngine.ini" 329
+"../../../Engine/Config/IOS/IOSEngine.ini" 330
+"../../../Engine/Config/Linux/LinuxEngine.ini" 331
+"C:/Users/JHoang/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc" 332
+"../../../Engine/DerivedDataCache/DDC.ddp" 333
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 334
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 335
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 336
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 337
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 338
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 339
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 340
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 341
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 342
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 343
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 344
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 345
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 346
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 347
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 348
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 349
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 350
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 351
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 352
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 353
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 354
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 355
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 356
+"../../../Engine/Content/EngineResources/Black.uasset" 357
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 358
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 359
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 360
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 361
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 362
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 363
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 364
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 365
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 366
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 367
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 368
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 369
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 370
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 371
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 372
+"../../../Engine/Content/EngineSounds/Master.uasset" 373
+"../../../Engine/Content/EngineSounds/Music.uasset" 374
+"../../../Engine/Content/EngineSounds/SFX.uasset" 375
+"../../../Engine/Content/EngineSounds/Normal_Attack.uasset" 376
+"../../../Engine/Content/EngineSounds/Special_Attack_PSM.uasset" 377
+"../../../Engine/Content/EngineSounds/Duck_Normal_Attack_MixMod.uasset" 378
+"../../../Engine/Content/EngineSounds/Voice.uasset" 379
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 380
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 381
+"../../../Engine/Content/EngineTireTypes/DefaultTireType.uasset" 382
+"../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf" 383
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf" 384
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-Black.ttf" 385
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf" 386
+"../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf" 387
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 388
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 389
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 390
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 391
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 392
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 393
+"../../../Engine/Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 394
+"../../../Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 395
+"../../../Engine/Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 396
+"../../../Engine/Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 397
+"../../../Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 398
+"../../../Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset" 399
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/MyCharacter.uasset" 400
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/HeroTPP_AnimBlueprint.uasset" 401
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Animations/Jump_End.uasset" 402
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/HeroTPP_Skeleton.uasset" 403
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Animations/Jump_Loop.uasset" 404
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Animations/Jump_Start.uasset" 405
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/IdleRun_TPP.uasset" 406
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Animations/Idle.uasset" 407
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Animations/Run.uasset" 408
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Animations/Walk.uasset" 409
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 410
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/HeroTPP.uasset" 411
+"../../../Engine/Content/TemplateResources/MI_Template_BaseBlue.uasset" 412
+"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 413
+"C:/Users/JHoang/AppData/Local/UnrealEngine/4.6/Saved/Config/Windows/SourceControlSettings.ini" 414
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/CleanSourceConfigs/SourceControlSettings.ini" 415
+"C:/Users/JHoang/Documents/Unreal Projects/SpaceWars/Saved/Config/Windows/SourceControlSettings.ini" 416
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 417
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 418
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 419
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 420
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 421
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 422
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 423
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 424
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 425
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 426
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 427
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 428
+"../../../Engine/Content/EngineFonts/RobotoTiny.uasset" 429
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Intermediate/CachedAssetRegistry.bin" 430
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_Starfighter.uasset" 431
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/UI/Paused.uasset" 432
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/UI/PlayerHud.uasset" 433
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 434
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 435
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 436
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 437
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 438
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 439
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 440
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 441
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 442
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 443
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 444
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 445
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 446
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 447
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 448
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 449
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 450
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 451
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 452
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/UI/Victory.uasset" 453
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/NewGameInstance.uasset" 454
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_AIstarfighter.uasset" 455
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_LaserEnemy.uasset" 456
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_BulletEnemy.uasset" 457
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/RadialGradient.uasset" 458
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Meshes/Sphere3.uasset" 459
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_BulletEnemy_Inst.uasset" 460
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/P_Explosion.uasset" 461
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_Burst.uasset" 462
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Burst_M.uasset" 463
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" 464
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" 465
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/m_flare_01.uasset" 466
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" 467
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" 468
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" 469
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" 470
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_LaserB1.uasset" 471
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_Bullet.uasset" 472
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" 473
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Basic_Wall.uasset" 474
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_LaserAlly.uasset" 475
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_BulletAlly.uasset" 476
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Meshes/Sphere2.uasset" 477
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/NewGameState.uasset" 478
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/UI/Defeat.uasset" 479
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Cone.uasset" 480
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/MI_engineThrust.uasset" 481
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_engineThrust.uasset" 482
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/ARC170.uasset" 483
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/blinn1.uasset" 484
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/phong1.uasset" 485
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/UI/Crosshair.uasset" 486
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo5a_Cue.uasset" 487
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo5a.uasset" 488
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/XWing-Laser_Cue.uasset" 489
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/XWing-Laser.uasset" 490
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/xwing.uasset" 491
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/1_-_Default.uasset" 492
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__10.uasset" 493
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__11.uasset" 494
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__12.uasset" 495
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__1273.uasset" 496
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__13.uasset" 497
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__14.uasset" 498
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__15.uasset" 499
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__16.uasset" 500
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__17.uasset" 501
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__18.uasset" 502
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__19.uasset" 503
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__2.uasset" 504
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__20.uasset" 505
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__21.uasset" 506
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__22.uasset" 507
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__23.uasset" 508
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__3.uasset" 509
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__5.uasset" 510
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__6.uasset" 511
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__67.uasset" 512
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__7.uasset" 513
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__8.uasset" 514
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9246.uasset" 515
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9248.uasset" 516
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9249.uasset" 517
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9251.uasset" 518
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9252.uasset" 519
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9253.uasset" 520
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9254.uasset" 521
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9255.uasset" 522
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9256.uasset" 523
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9257.uasset" 524
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9258.uasset" 525
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9259.uasset" 526
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Character/Material__9276.uasset" 527
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/ExampleContent/Input_Examples/Effects/P_UFO_Engine_Boost.uasset" 528
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/ExampleContent/Blueprints/Materials/M_Impact_Ripple.uasset" 529
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/ExampleContent/Blueprints/T_Ring.uasset" 530
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/ExampleContent/Effects/Materials/m_flare_01.uasset" 531
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/ExampleContent/Input_Examples/Materials/M_Radial_Gradient.uasset" 532
+"../../../Engine/Content/EditorMeshes/EditorPlane.uasset" 533
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ATST-ChinGuns_Cue.uasset" 534
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ATST-ChinGuns.uasset" 535
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/XWing-Proton_Cue.uasset" 536
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/XWing-Proton.uasset" 537
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/YWing-Fly2_Cue.uasset" 538
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/YWing-Fly2.uasset" 539
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/YWing-Fly1_Cue.uasset" 540
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/YWing-Fly1.uasset" 541
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/BREAKdn.uasset" 542
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF7342FD46__D9F27A5199D4BF410E5EF6F1FF86DA696C70C63A.udd" 543
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_07725AB242C4073A297025B365F04__94657AC32AA38B394F63E11AFEAE833D0CE1437C.udd" 544
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_07725AB242C4073A297025B365F04__F603D44658DBDD28C32276A47994A06413DCDDBF.udd" 545
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF7342FD46__92C8C74D3E3C42F571911D890C823A77A92242DE.udd" 546
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_07725AB242C4073A297025B365F04__23C8C17B0783A3348E25C0076C23268E96120AC7.udd" 547
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/4/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_07725AB242C4073A297025B365F04__A564EB74A1C6BA82D6B17DBA3B6428BC406999E8.udd" 548
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/8/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_9F5F94D8426C5__EF12ED2569680B7AA620A7DB7851BF688F37065D.udd" 549
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFF28072E3__E3C7A7726BE88FB50ED206ADE94FA96C78505CA1.udd" 550
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFF28072E3__E19894B50ACEADAE9B6E3E6953754F4F3D5CE4A0.udd" 551
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF977CE17F__75E1A0C268498AFF0626B533ACE7E81061FDFDEF.udd" 552
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF977CE17F__BE95FC096D9DED7FDEDB5E8F82CCF5FAD03FF491.udd" 553
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/8/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_F3A900F44ED67__C2D52CCB4896731665D57F1571D26B0C62B55055.udd" 554
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFA6F1DC45__9849208BD0BC255A117C2ED07D6ADFDBBF7CBC1B.udd" 555
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFA6F1DC45__917CEA92FD2EF2034C65F02E7067609709C60BC1.udd" 556
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF7DAE688C__980B5DDCE680FC0999DABE98B24F41362CAF41AE.udd" 557
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF7DAE688C__AEE5F2DACE3937CB6561CEA9622105708193A1BE.udd" 558
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/6/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFC76C2D33__7C57D7812767AB851B8289BF3FCEA45DC5B11E2C.udd" 559
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/7/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFC76C2D33__D13E33EF2975892141466B025650AEE039439F76.udd" 560
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/7/STATICMESH_46A8778361B442A9523C54440EA1E9D_0DB5412B27AB480F844CC7F0BE5ABAFF_FD__5F983F85B45A7F8E87B8D579602858A748545AA5.udd" 561
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/6/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_70ADDE4B480E2__6FBDE7EA4EDCAC0BBBBB94FA6FCF50D3E7B0F792.udd" 562
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/0/5/AUDIO_0002_0000_OGG_0001_5F4CCEDD4076234CEE044DA417C8510F.udd" 563
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF0335CEAD__E482FE9C60DE8036C3797A176377E1FFA60C35FE.udd" 564
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF0335CEAD__F6DC099E2A4035564AB0A4A1BF3EAB38BA0A9D88.udd" 565
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/7/AUDIO_0002_0000_OGG_0001_108DA7FD40099BFECDED04ABD1499946.udd" 566
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/4/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFE6118F6C__C55D3C6750998D22CF6A827D46AD0A1C4FEB3A3D.udd" 567
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/4/3/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFE6118F6C__8FB368DB490735BC6278CBCB8090C236546FDF86.udd" 568
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/2/STATICMESH_46A8778361B442A9523C54440EA1E9D_0DB5412B27AB480F844CC7F0BE5ABAFF_05__F7EA5D3E40E1A2A8905C7338BD446B7E85D7BFC0.udd" 569
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF3CD0F8FA__45E69D74AB3DA2C2487EE4D9381E916B8F51091B.udd" 570
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF3CD0F8FA__B4ADD87485F4628EE1F7C4B9DD0D6594408119EF.udd" 571
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF618D3863__74BB60165BD0B367CE41C1EF8EBDA2BEA6A4E7E6.udd" 572
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF618D3863__D9523C754D16B63500F8A7B9F6BDE7CAB992B415.udd" 573
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/3/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFF472B7D4__5030727D9EC351FD2F8C4F0A41718A61E6A0EDA5.udd" 574
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFF472B7D4__3AA08198D8B20E30902A57B30ED5C701619CAAB1.udd" 575
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF180E6B49__04569F012C8F8E0F8A065DECFA15224800B658EA.udd" 576
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/6/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF180E6B49__A904E05DA878ACE55CBF325DB7407D96AFCFFEDA.udd" 577
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF81C5070B__8EC8BCBB48E316E07EE9DED143B5B913FE11767A.udd" 578
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/9/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF81C5070B__5F9D63E33E3E951B34551F163B82D06F3157BF7E.udd" 579
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFFE38515B__97328DF090435ED8C42741159BBF8F6C60F94E9E.udd" 580
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/3/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFFE38515B__77E10A1D37CE58D1E321F3D9CB967E351D55BB15.udd" 581
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF3AAFB9D1__D9F37200FC5FACFCD79E38B4AD913AE3ADD32C31.udd" 582
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF3AAFB9D1__06E75102F265B7C8D9035D951446E581F5B561A3.udd" 583
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF564144E4__D3D6FCD9BAB45656BD3E844578A854620E2B2E61.udd" 584
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/2/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF564144E4__D336101A75D9711D770ABAC7FF631E9878F94D4B.udd" 585
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFC4D087CE__64F19A0193F5EDEB090E015042D63038C7C6BB0A.udd" 586
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFC4D087CE__08977EB0992E5E7398A596A16BA2E50E7C1B3AE6.udd" 587
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFA392FFFD__1C398DE5779EBFB286CA918883602490BB9F54ED.udd" 588
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/7/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFA392FFFD__BE2F7CC87343D3C4F5BDACB82D7F82D0DFA67055.udd" 589
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFF563F918__4E40AA79A93A8C8EC20153EF8BC75CF9D680BF7C.udd" 590
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/8/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFF563F918__59B34137FD209F7B262AAD242384225EFD7AD07F.udd" 591
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/9/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF8CD78272__755E490EE0E34285CBBBCC668D022055049D6B5A.udd" 592
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/7/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF8CD78272__4CC0F08E81668304EBA1911B6250FD221FB41EB1.udd" 593
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF744B02B4__04BBBE633960897E4AE7A97AEDE7008088ABE7CD.udd" 594
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF744B02B4__D605AD4E33C5D6B180640F62849A3584D7DCFE9B.udd" 595
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/5/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF50525C6E__C2871C60EF94D2219F15A955EF608CB234C4D778.udd" 596
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF50525C6E__F0AE70F8A9E4CB181894E9677B0F9EC47C4FDE8F.udd" 597
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF8992A738__EBFB6D8191B6CB53C80F35DB9E9C1FAD90F98CB7.udd" 598
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/6/8/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF8992A738__0E13FF4F5BE1EF50BFFC443A0A5C364A01C5C327.udd" 599
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/1/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFF9FC6D8F__2335736F6001B138BD0865025B5B5918117C1104.udd" 600
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFF9FC6D8F__1CD1421DA8312395CC9F740DD39D81E1CE66600F.udd" 601
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/9/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF807711B7__6B1642B8BCCC6FF6AB57A67C16EBB1F96584B06F.udd" 602
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/6/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF807711B7__947D8B54928B974AAE6B1D7BBF9599CF8E482D6A.udd" 603
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/9/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFFA7567D6__258A2F8398C761583B7A07FB86E26AAEA736901A.udd" 604
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFFA7567D6__91BDC689F9C7D5DC6A8CAD05A50C31696A818281.udd" 605
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF5A5E01EF__D651E59DD4E4AA76FB1FDCA379E49521F0019017.udd" 606
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF5A5E01EF__5DF07DCFA21E6F77270618A01687C4740A94E2CC.udd" 607
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF19B6892A__5879C5BF891C8268664C475B6CC0E74C906E38F6.udd" 608
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/1/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF19B6892A__AAC2902505E100F73F6FEA58B60252740B57825C.udd" 609
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/0/9/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF8674B528__90D80388EE5BF3F366FE2888F85330A02296CA59.udd" 610
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF8674B528__AC52BD0EA8F888124590513DEC0A1ED032722A0A.udd" 611
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/1/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFFBF35D51__5594B08A83E980B4E4AA90593BA516D5ED52BA92.udd" 612
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFFBF35D51__571B9A250DF8FC51F0FBC14709173E5F98691EF0.udd" 613
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF7BFCC48B__394D854BB02B92ED068931220AE1077BED3D0AF6.udd" 614
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/9/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF7BFCC48B__DDE737657270B35D5226877CE811A7E8CD15143C.udd" 615
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF5A18A53B__30E07DFD0077F9AEC265BF7C8E1E59637AD7BC0A.udd" 616
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/2/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF5A18A53B__E185A65141E21A9D32C2E79A41A9671AFAF25A1A.udd" 617
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/3/9/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF07877274__368F07BDD7E05CD18519E439CF59147924008718.udd" 618
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/3/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF07877274__59814B74E3C3F029007C56EA3B8CFF38B04C5D91.udd" 619
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF1C7F36AC__3F2A5F5A617D3A1349D0F478E5287666503D4864.udd" 620
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/2/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF1C7F36AC__759FACAD1E175C08308A12A62870275A9B24E594.udd" 621
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF01D2A1BB__45C8B804256BFC7D940492FA348172DF98D9D3D1.udd" 622
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF01D2A1BB__DB5243684954B21BAF29578F3F522C525F5994B0.udd" 623
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/5/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF16510F03__5F0765756485B04B1BD6E8188FEB09CBE5895706.udd" 624
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/3/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF16510F03__5E923744F3CBCC47F2E99D8E1F77EC4329619672.udd" 625
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/3/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF49162BDC__E4EA919139309BBBD4C52B7197D2BB59A0CF36DE.udd" 626
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF49162BDC__77987EDEE3C24056E906E95A3BA5CA58939853E5.udd" 627
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/5/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFAEC10E41__F830A0BC47ACEC114A2888BF2C9967D26ADC6709.udd" 628
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFAEC10E41__E357F9F6AF2B21B5B79B58A87FE648F10CD9FDEA.udd" 629
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF3B9F9812__9EE83390DD728960041235FAF4752101808CCB98.udd" 630
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF3B9F9812__601D5D8C3CAEB895695C3FF44549A2329AEB389E.udd" 631
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFF9B23A9F__B200508B872D5E4907AECA1D11AAB2791A33E3C2.udd" 632
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/5/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFF9B23A9F__32010D6D2D6D0CD1B71B2A8E3F3A425DA3FC6A04.udd" 633
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/0/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF319BF462__C8DC9AF27D5B56AA2C0FD358200FB3A2C06DE239.udd" 634
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF319BF462__3255DE480B0B6A58BC49BC829B24B42A16E60E72.udd" 635
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/3/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF5BF5F8F1__0FF6F72531DB5FF1D2D158D42B2D20A4E5654919.udd" 636
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/8/4/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF5BF5F8F1__A0737309879241590B2CC1F4A6AC2E77BE806160.udd" 637
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/0/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_ECB309FC4C5A9__8235990C7FF8B7A014D48E8E2F5FCE0AAB6EB4CC.udd" 638
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF767E3732__A301BC3314C95146277F0C45E37160F1099743C3.udd" 639
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/7/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF767E3732__436CEE6189175EDC9DC65D4E655926230D630AFF.udd" 640
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/9/7/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFEC192CEC__1397C824B7A6C87F305945B14601CF8BE0558AC7.udd" 641
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/6/8/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFEC192CEC__28E35E778E837BB568379B5DE500B9E2AF3BFAF1.udd" 642
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/0/AUDIO_0002_0000_OGG_0001_F16E42F244C802D2E207B8B694846B93.udd" 643
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/9/AUDIO_0002_0000_OGG_0001_6DFDE5D941687DFEF98330AEFE92F6B5.udd" 644
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/6/AUDIO_0002_0000_OGG_0001_88EC1B764E1A992F5ACC58A2A9CAD50C.udd" 645
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/2/AUDIO_0002_0000_OGG_0001_F56CB0794001E160F6D427BD20977112.udd" 646
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/3/AUDIO_0002_0000_OGG_0001_1ACB0B8A4F162B52771412B6D2C39120.udd" 647
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/UI/MainMenu.uasset" 648
+"../../../Engine/Content/Maps/Entry.umap" 649
+"../../../Engine/Content/EngineMaterials/DefaultNormal.uasset" 650
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Maps/Starfield.umap" 651
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 652
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 653
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 654
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 655
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 656
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 657
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 658
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 659
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 660
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_AITurret.uasset" 661
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Steel.uasset" 662
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_MacroVariation.uasset" 663
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" 664
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" 665
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" 666
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 667
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" 668
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" 669
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Shelf.uasset" 670
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Shelf_M.uasset" 671
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Shelf_N.uasset" 672
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo3c_Cue.uasset" 673
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo3c.uasset" 674
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ISD-Laser2_Cue.uasset" 675
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ISD-Laser2.uasset" 676
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Cube.uasset" 677
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Cylinder.uasset" 678
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_AITurretBig.uasset" 679
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_LaserEnemyBigT.uasset" 680
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Naboo-Torp.uasset" 681
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" 682
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_Destroyer.uasset" 683
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" 684
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" 685
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" 686
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" 687
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Chrome.uasset" 688
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" 689
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" 690
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_GameController2.uasset" 691
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_Skybox.uasset" 692
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/SkyboxMat.uasset" 693
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/overlap.uasset" 694
+"../../../Engine/Content/MapTemplates/Sky/SM_SkySphere.uasset" 695
+"../../../Engine/Content/MapTemplates/Sky/M_Procedural_Sky_MASTER02.uasset" 696
+"../../../Engine/Content/MapTemplates/Sky/T_Sky_Stars.uasset" 697
+"../../../Engine/Content/MapTemplates/Sky/T_UDK_Sky_CloudMask01_N.uasset" 698
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/Bridge.uasset" 699
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" 700
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Water_Lake.uasset" 701
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" 702
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Water_N.uasset" 703
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_GlassWindow.uasset" 704
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Glass.uasset" 705
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/Engines.uasset" 706
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/Hangar.uasset" 707
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_WindowFrame.uasset" 708
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Frame.uasset" 709
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Frame_M.uasset" 710
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Frame_N.uasset" 711
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/LifeSupport.uasset" 712
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_CornerFrame.uasset" 713
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" 714
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Lamp.uasset" 715
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Lamp_M.uasset" 716
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Lamp_N.uasset" 717
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/ShieldGenerator.uasset" 718
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Sphere.uasset" 719
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/starfighter.uasset" 720
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/NewPlayerController.uasset" 721
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBfed_Cue.uasset" 722
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBfed.uasset" 723
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/gameMusic_Cue.uasset" 724
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/gameMusic.uasset" 725
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/ExampleContent/Blueprint_Communication/Materials/M_Highlight.uasset" 726
+"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 727
+"../../../Engine/Content/MapTemplates/Bokeh_5Sides.uasset" 728
+"../../../Engine/Content/MapTemplates/T_ScreenDirt02_w.uasset" 729
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/7/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_B7FA99894E778F93AA8BC2A7A4F49DB__80F2ED2A9002091000DC3997B197F0B09A2FD971.udd" 730
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/4/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6021FF7345668851ABDD56B8CB84A__47791A131878B0D511CE95FCAB64D484483E6D86.udd" 731
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_7306DD924D149887791E3CADD8911__99B80B861EE986C25D2E3AEAEA23204D7E067620.udd" 732
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/8/8/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6021FF7345668851ABDD56B8CB84A__079CA6DA17C39BB988BD1BAC391C2B7DBCD630A7.udd" 733
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_DXT1_E0F58E6D45FC30C3AD0BEE90DD5DD2A5__451ACAD47327B13CEA1FB8E3639C757B3D0CF479.udd" 734
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/3/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_DXT1_FB8A8044411E23CEB446D4B3E1198975__1F5D98ED0AA1DC811AF541682EBF4ABCAA13EB25.udd" 735
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/6/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_DXT1_E0F58E6D45FC30C3AD0BEE90DD5DD2A5__E6AD7CCD4A86517CF1AE303EAB7562B458C490D9.udd" 736
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/9/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_3387FAAD442B82DE994841A39B35E9E__CDB9FF5955D3233BF65270B191FA5F3B79C693F7.udd" 737
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/0/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_3387FAAD442B82DE994841A39B35E9E__2B29364446BEA359B1B88A6B159AE3C737ECF508.udd" 738
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/1/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6021FF7345668851ABDD56B8CB84A__2EBD955AAB1E78798925404F22C8D5210569DFF0.udd" 739
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6021FF7345668851ABDD56B8CB84A__4EC6D8A74656380A2B1F5F0C9C984E1E3E060CC8.udd" 740
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/1/5/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_AUTODXT_6021FF7345668851ABDD56B8CB84A__083434B286ABB0DB71312A3B2FFD668E19846D95.udd" 741
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/0/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_39F9861049B3EAB8588EE495770E8AC__CDED95FEDD78179944B046E730365788F1D6E01C.udd" 742
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/6/6/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_DXT1_E0F58E6D45FC30C3AD0BEE90DD5DD2A5__CE7BCF0C2CE350BA61E904399598907C4B49F4CD.udd" 743
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/1/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_DXT1_E0F58E6D45FC30C3AD0BEE90DD5DD2A5__B998C4E7744D5035DD28C326F7DDDBFC3D142407.udd" 744
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/4/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_DXT1_E0F58E6D45FC30C3AD0BEE90DD5DD2A5__924DD2F846BBECDCF53AA8FD5D278A790EB1BDFA.udd" 745
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_3387FAAD442B82DE994841A39B35E9E__EC042FF95B40AF0F9E8DD454DB2C7EF471B622E6.udd" 746
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/7/0/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_3387FAAD442B82DE994841A39B35E9E__C2E3EDEF5DC4F88EFCC3E4807DFEEA46C30E9660.udd" 747
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/9/7/TEXTURE_75F87CE100B546AAB8A1C4132AF9DB17_BGRA8_3387FAAD442B82DE994841A39B35E9E__D9C42CCCC8D44AA1908380A94E4B0748A01869CD.udd" 748
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/8/AUDIO_0002_0000_OGG_0001_B2CC8DF34D55CB85759E9DBA1E4C5CD0.udd" 749
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/6/AUDIO_0002_0000_OGG_0001_675FECA449F6C9FF6CF596975E5A67D6.udd" 750
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/4/AUDIO_0002_0000_OGG_0001_DFF7A8D34E821747674219931E4E4775.udd" 751
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/7/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUF23F4899D__50F31F173B16FF40435C038AD72EC9BE179182D4.udd" 752
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/3/1/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUF23F4899D__53C3104F8C1B092B1972A8067C0FB51E567AA075.udd" 753
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/0/2/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_8223916545F225725CAC5EBB99DF0CC1__1_0_13073_0.udd" 754
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/2/AUDIO_0002_0000_OGG_0001_AD820CE6478DA474EB10CA8628419648.udd" 755
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/8/8/AUDIO_0002_0000_OGG_0001_FA0F84DA4705DED3E206AB8EC0854D86.udd" 756
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/8/8/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_B8BE8A1C4A74C9AA33B5958A0D43A5E7__1_0_13073_0.udd" 757
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/3/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_C8F08219445BD9F0EA21B58DB371E6A3__1_0_13073_0.udd" 758
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/5/9/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_0B8070C942ED367CAC3CC090DE010608__1_0_13073_0.udd" 759
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/2/1/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_7D6B0C3B4520696B03E84AB1FBC2A63C__1_0_13073_0.udd" 760
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/4/2/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM5_2__BC5N_DEV_SL_NODBUFE83D3F04__48133E913518BE41E8EE8EF1D67F65ABA3954966.udd" 761
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/2/6/MATSM_E2C1E89EE9AE4F3CA7B8E0F2C49B34EB_PCD3D_SM4_2__BC5N_DEV_SL_NODBUFE83D3F04__3419CF866F69BEA026434A1D76498D2BD7AC0395.udd" 762
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/StarterMap.umap" 763
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" 764
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" 765
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Fire01_Cue.uasset" 766
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Fire01.uasset" 767
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/P_Fire.uasset" 768
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" 769
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Fire_SubUV.uasset" 770
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" 771
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" 772
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" 773
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" 774
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Smoke01_Cue.uasset" 775
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Smoke01.uasset" 776
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/P_Smoke.uasset" 777
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" 778
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" 779
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Fire_Sparks01.uasset" 780
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/P_Sparks.uasset" 781
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_Spark.uasset" 782
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Spark_Core.uasset" 783
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" 784
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Steam01_Cue.uasset" 785
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Steam01.uasset" 786
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/P_Steam_Lit.uasset" 787
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" 788
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Lamp_Wall.uasset" 789
+"../../../Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset" 790
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset" 791
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" 792
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" 793
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" 794
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" 795
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" 796
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" 797
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" 798
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" 799
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" 800
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" 801
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" 802
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" 803
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" 804
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" 805
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" 806
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" 807
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" 808
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" 809
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" 810
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" 811
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" 812
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" 813
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" 814
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" 815
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" 816
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" 817
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" 818
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" 819
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" 820
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" 821
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Gradinet_01.uasset" 822
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" 823
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" 824
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" 825
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" 826
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" 827
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Concrete_Grime.uasset" 828
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" 829
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" 830
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Concrete_Panels.uasset" 831
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" 832
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" 833
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Concrete_Poured.uasset" 834
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" 835
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" 836
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" 837
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" 838
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" 839
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" 840
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" 841
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Ground_Grass.uasset" 842
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" 843
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" 844
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Ground_Gravel.uasset" 845
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" 846
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" 847
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Ground_Moss.uasset" 848
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_ground_Moss_D.uasset" 849
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" 850
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Copper.uasset" 851
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" 852
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Gold.uasset" 853
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" 854
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Metal_Rust.uasset" 855
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" 856
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Rock_Basalt.uasset" 857
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" 858
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" 859
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" 860
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" 861
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" 862
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" 863
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Rock_Slate.uasset" 864
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" 865
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" 866
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" 867
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" 868
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Single_Tile_N.uasset" 869
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" 870
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" 871
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Tech_Panel.uasset" 872
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" 873
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" 874
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Water_Ocean.uasset" 875
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Water_M.uasset" 876
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" 877
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" 878
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" 879
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" 880
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" 881
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/AlphaOffset.uasset" 882
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Wood_Oak.uasset" 883
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" 884
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" 885
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Wood_Pine.uasset" 886
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" 887
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" 888
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Wood_Walnut.uasset" 889
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" 890
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" 891
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Chair.uasset" 892
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Chair_M.uasset" 893
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Chair_N.uasset" 894
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Floor_400x400.uasset" 895
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_Basic_Floor.uasset" 896
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_400x200.uasset" 897
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" 898
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" 899
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Collapse_Cue.uasset" 900
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Collapse01.uasset" 901
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Collapse02.uasset" 902
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Starter_Background_Cue.uasset" 903
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Starter_Birds01.uasset" 904
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Starter_Wind05.uasset" 905
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Starter_Wind06.uasset" 906
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Starter_Music_Cue.uasset" 907
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Starter_Music01.uasset" 908
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/P_Ambient_Dust.uasset" 909
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" 910
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" 911
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/MaterialSphere.uasset" 912
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Chair.uasset" 913
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_DoorFrame.uasset" 914
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_PillarFrame.uasset" 915
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_PillarFrame300.uasset" 916
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Statue.uasset" 917
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Statue.uasset" 918
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Statue_M.uasset" 919
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Statue_N.uasset" 920
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" 921
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_TableRound.uasset" 922
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_TableRound.uasset" 923
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_TableRound_M.uasset" 924
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_TableRound_N.uasset" 925
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 926
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent.uasset" 927
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Minimal_Default.umap" 928
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Advanced_Lighting.umap" 929
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/BP_LightStudio.uasset" 930
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" 931
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" 932
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" 933
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" 934
+"../../../Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset" 935
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" 936
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" 937
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/Skybox.uasset" 938
+"../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset" 939
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" 940
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" 941
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_AssetPlatform.uasset" 942
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/SM_ColorCalibrator.uasset" 943
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ChromeBall.uasset" 944
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoat.uasset" 945
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ClearCoatBlack.uasset" 946
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_ColorGrid.uasset" 947
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/T_ColorGrid.uasset" 948
+"../../../Engine/Content/EditorMeshes/ColorCalibrator/M_GreyBall.uasset" 949
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" 950
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 951
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_A_S.uasset" 952
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_A_N.uasset" 953
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Wood_a_d.uasset" 954
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_White_Painted_Metal_N.uasset" 955
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_White_Painted_Metal_D.uasset" 956
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_UNV_Concrete02_N.uasset" 957
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_UNV_Concrete02.uasset" 958
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Underground_Base_Pipe_N.uasset" 959
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Underground_Base_Pipe_D.uasset" 960
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Stone_Brick_N.uasset" 961
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Stone_Brick_D.uasset" 962
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Sky_Stars.uasset" 963
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Sky_Clouds_M.uasset" 964
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Detail_03_D.uasset" 965
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Detail_02_N.uasset" 966
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_Detail_02_D.uasset" 967
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_11b_D.uasset" 968
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_10_N.uasset" 969
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_10_D.uasset" 970
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_09_D.uasset" 971
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_08_N.uasset" 972
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_08_D.uasset" 973
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_07_N.uasset" 974
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_07_D.uasset" 975
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_07b_D.uasset" 976
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_06_N.uasset" 977
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_06_D.uasset" 978
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_05_N.uasset" 979
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_05_D.uasset" 980
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_03_N.uasset" 981
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_03_D.uasset" 982
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_01_N.uasset" 983
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rock_01_D.uasset" 984
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Rocky_01_N.uasset" 985
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_RockMesh_N.uasset" 986
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_RockMesh_M.uasset" 987
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_PatchyGrass_N.uasset" 988
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_PatchyGrass_D.uasset" 989
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Paint_Metal_Rust_N.uasset" 990
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Paint_Metal_Rust_D.uasset" 991
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_PaintedMetal01_N.uasset" 992
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_PaintedMetal01.uasset" 993
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Scuffed_N.uasset" 994
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Scuffed_D.uasset" 995
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Rust_01_N.uasset" 996
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Rust_01_D.uasset" 997
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Painted_04_N.uasset" 998
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Painted_04_D.uasset" 999
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Metal03_N.uasset" 1000
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Metal03_D.uasset" 1001
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Metal01_N.uasset" 1002
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Metal01_D.uasset" 1003
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_N.uasset" 1004
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Metal_Dark_Gun_metal_E.uasset" 1005
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Noise_N.uasset" 1006
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Dirt_N.uasset" 1007
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Dirt_D.uasset" 1008
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_Detail_N.uasset" 1009
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_02_N.uasset" 1010
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_02_D.uasset" 1011
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_01_N.uasset" 1012
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Ground_01_D.uasset" 1013
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Gravel_N.uasset" 1014
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Gravel_D.uasset" 1015
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base_07_N.uasset" 1016
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base_07.uasset" 1017
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base_06_N.uasset" 1018
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base_06.uasset" 1019
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base04_N.uasset" 1020
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base04_D.uasset" 1021
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base02_N.uasset" 1022
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Generic_Concrete_Base02.uasset" 1023
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Door_N.uasset" 1024
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Door_M.uasset" 1025
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Dirt_N.uasset" 1026
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Dirt_D.uasset" 1027
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_DesertCrystal01_N.uasset" 1028
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Wall_N.uasset" 1029
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Wall_D.uasset" 1030
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Wall07_N.uasset" 1031
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Wall07.uasset" 1032
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_N.uasset" 1033
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Floor01_N.uasset" 1034
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_Floor01.uasset" 1035
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_D.uasset" 1036
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_01_N.uasset" 1037
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete_01_D.uasset" 1038
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete01_N.uasset" 1039
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Concrete01_D.uasset" 1040
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Cobble_01_H.uasset" 1041
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_04_R.uasset" 1042
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_04_N.uasset" 1043
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_04_D.uasset" 1044
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleStone_04b_D.uasset" 1045
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_CobbleDark_01_D.uasset" 1046
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Cliff_N.uasset" 1047
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Cliff_M.uasset" 1048
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Bush_N.uasset" 1049
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Bush_D.uasset" 1050
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Base_Metal_Gray_N.uasset" 1051
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Base_Metal_Gray_D.uasset" 1052
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Bark02_N.uasset" 1053
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_Bark02_D.uasset" 1054
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_ArmorMetal01_N.uasset" 1055
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/T_ArmorMetal01.uasset" 1056
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/Sky54a2048LDR.uasset" 1057
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/Sky54a2048.uasset" 1058
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/Metal_Tile_2_N.uasset" 1059
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Textures/Metal_Tile_2.uasset" 1060
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" 1061
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Tube.uasset" 1062
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" 1063
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" 1064
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Trim.uasset" 1065
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Torus.uasset" 1066
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Plane.uasset" 1067
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" 1068
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" 1069
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_Pipe.uasset" 1070
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" 1071
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Rock.uasset" 1072
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" 1073
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" 1074
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Door.uasset" 1075
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/Materials/M_Bush.uasset" 1076
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Stairs.uasset" 1077
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Shelf.uasset" 1078
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Rock.uasset" 1079
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" 1080
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Door.uasset" 1081
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Couch.uasset" 1082
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Props/SM_Bush.uasset" 1083
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" 1084
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" 1085
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Explosion_Cue.uasset" 1086
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Explosion01.uasset" 1087
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Explosion02.uasset" 1088
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Light02_Cue.uasset" 1089
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Light02.uasset" 1090
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Light01_Cue.uasset" 1091
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Audio/Light01.uasset" 1092
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" 1093
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" 1094
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_500x500.uasset" 1095
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_400x400.uasset" 1096
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Wall_400x300.uasset" 1097
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/SM_FloorPiece500x500.uasset" 1098
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/SM_CeilingPiece500x500.uasset" 1099
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/StarterContent/Architecture/Pillar_50x500.uasset" 1100
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiRom.uasset" 1101
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/9/3/AUDIO_0002_0000_OGG_0001_09D0E86D45479A495237069619809039.udd" 1102
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiLyr.uasset" 1103
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/8/7/AUDIO_0002_0000_OGG_0001_A3B7D04141CC916832F1D7902EEA24C2.udd" 1104
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiKli.uasset" 1105
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/5/0/AUDIO_0002_0000_OGG_0001_1E520C044A38B04E9D3DD1B6E7327472.udd" 1106
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiHyd2.uasset" 1107
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/1/0/AUDIO_0002_0000_OGG_0001_DC30D51F4D78F8CC9035FC82C82EEA65.udd" 1108
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiGor2.uasset" 1109
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/3/AUDIO_0002_0000_OGG_0001_4049026445BD5785AB791ABC59D4C921.udd" 1110
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiGor.uasset" 1111
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/0/6/AUDIO_0002_0000_OGG_0001_A1D52DE0458C1BDA1845D98568DD3ACE.udd" 1112
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHraiFed.uasset" 1113
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/7/AUDIO_0002_0000_OGG_0001_4EC8FDA749F5775C284F1D802E454883.udd" 1114
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowRom.uasset" 1115
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/1/AUDIO_0002_0000_OGG_0001_439766424F8BB89D4F4E8094A2555C61.udd" 1116
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowLyr.uasset" 1117
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/9/AUDIO_0002_0000_OGG_0001_450B678E41924C20BE381B9842CB929A.udd" 1118
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowKli.uasset" 1119
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/1/0/AUDIO_0002_0000_OGG_0001_6B92493A4B9815EA82436F976B078ED5.udd" 1120
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowHyd2.uasset" 1121
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/0/1/AUDIO_0002_0000_OGG_0001_3CDE4B784C0F8F4DC7B314A9F2318337.udd" 1122
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowGor2.uasset" 1123
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/8/AUDIO_0002_0000_OGG_0001_A271B87E4DF532F45F93679D5FA39AF6.udd" 1124
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowGor.uasset" 1125
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/9/AUDIO_0002_0000_OGG_0001_42CFF1734E0F9D2BAB328C9DA8DF1385.udd" 1126
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/SHlowFed.uasset" 1127
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/0/8/4/AUDIO_0002_0000_OGG_0001_2C07A0A34EF47BC22FF808AC20FE9C26.udd" 1128
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/PLSleak.uasset" 1129
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/8/4/AUDIO_0002_0000_OGG_0001_29211775479DF7BAC64EEEB8142CC766.udd" 1130
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ISD-Fly_Cue.uasset" 1131
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBkli.uasset" 1132
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ISD-Fly.uasset" 1133
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/1/2/AUDIO_0002_0000_OGG_0001_34F250AB43398346DD8920BEE37A8070.udd" 1134
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/6/0/AUDIO_0002_0000_OGG_0001_24C5DD674BDB7D4303CFC0BE95DFAEC7.udd" 1135
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo6c.uasset" 1136
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/3/5/3/AUDIO_0002_0000_OGG_0001_E9A088D840A8BE16D583EC9958B9F401.udd" 1137
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo6b.uasset" 1138
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/7/5/9/AUDIO_0002_0000_OGG_0001_1C6BFE45429DE56533AC6D9D217810F8.udd" 1139
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/Explo6a.uasset" 1140
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/9/9/AUDIO_0002_0000_OGG_0001_C4625DFB4FE0913476532C8B8EC85413.udd" 1141
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ESGend3.uasset" 1142
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/9/AUDIO_0002_0000_OGG_0001_29E7C9B1469E0DF42BC6C3A14F294048.udd" 1143
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ESGend2.uasset" 1144
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/8/0/AUDIO_0002_0000_OGG_0001_B394744B47A7780D8E0B328E5692BE5C.udd" 1145
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ESGend1.uasset" 1146
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/5/3/4/AUDIO_0002_0000_OGG_0001_181AAA6746BF5F35ADDEA7A038CE8A61.udd" 1147
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/ESGend0.uasset" 1148
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/6/0/9/AUDIO_0002_0000_OGG_0001_3349BF1F454AB9180DE9928631296D9A.udd" 1149
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/EMGstop.uasset" 1150
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/1/0/AUDIO_0002_0000_OGG_0001_6EBE947043384447E0D0DD91A8F980DF.udd" 1151
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBrom.uasset" 1152
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/3/0/AUDIO_0002_0000_OGG_0001_030E20AB44E5EDFBD6B877AF61438792.udd" 1153
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AmbLyr.uasset" 1154
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/9/2/2/AUDIO_0002_0000_OGG_0001_B8ED4B194867D984A65510808C9C489B.udd" 1155
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBhyd.uasset" 1156
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/2/4/1/AUDIO_0002_0000_OGG_0001_6B34984543D5937FB01145BD41E5A88C.udd" 1157
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBgor.uasset" 1158
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/1/3/8/AUDIO_0002_0000_OGG_0001_0BE2A8DC4B4386FE3582FA843D48526B.udd" 1159
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Sounds/AMBfiss.uasset" 1160
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/4/6/6/AUDIO_0002_0000_OGG_0001_DE10AD15497E148BBE9EDFB5B5084185.udd" 1161
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Meshes/Sphere.uasset" 1162
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_Bullet_Inst.uasset" 1163
+"C:/Users/JHoang/AppData/Local/UnrealEngine/Common/DerivedDataCache/8/3/1/PHYSX_$7B1F0627AE$2DABEB$2D4206$2D8D78$2DE16BEB5DDC7E$7D_PHYSXPC_6E2E4AE14A65A__B4F25820AD5AFC4E96D0C7BEF2EF75FB4AAE0BAB.udd" 1164
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_Bullet_2.uasset" 1165
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Materials/M_BulletAlly_Inst.uasset" 1166
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/xwing.uasset" 1167
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/MyGame.uasset" 1168
+"../../../../../../Users/JHoang/Documents/Unreal Projects/SpaceWars/Content/Blueprints/BP_AITurret2.uasset" 1169
