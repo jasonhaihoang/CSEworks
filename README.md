@@ -22,12 +22,16 @@ find several amazing resources to develop, improve, and alter for my games. Alon
 courses, I was able to explore a Game Math and Physics course where we played with rigid bodies and gravity mechanics 
 to solve problems and add an extra dimension of creativity into our games.
 Unfortunately, the code for my first two game programming experiences were not able to be transfered to my database, 
-but I was able to keep a copy of the executables. And as a precaution, none of the visual and audio assets belong to 
-me, the are rightfully owned by their various publishers and companies with the exception of one music file, titled 
-"adventure" within the Game Programming I exe folder, that was composed by me. The use of these assests were solely 
-for educational purposes only.
-- Game Programming I (DirectX)
-- Game Math and Physics (Box2D)
+but I was able to keep a copy of the executables. The assets that I worked on and developed for Game Programming II's 
+project were all able to be uploaded to github except for the sound files whcih were too big and mostly copyrighted 
+anyways. However, you probably will not be able to view them in the unreal 4 engine due to github's inability to 
+upload any of the large files needed. That's why I input a final submission video so that you have a somewhat decent 
+visual. There is also no executable for Game Programming II also due to it being too large of a file upload for github
+to handle. And as a precaution, none of the visual and audio assets belong to me, the are rightfully owned by their 
+various publishers and companies with the exception of one music file, titled "adventure" within the Game Programming 
+I exe folder, that was composed by me. The use of these assests were solely for educational purposes only.
+- Game Programming I exe(DirectX)
+- Game Math and Physics exe(Box2D)
 - Game Programming II (Unreal 4)
 
 The last couple of folders within this repository contain various major programming assignments over the course of my 
