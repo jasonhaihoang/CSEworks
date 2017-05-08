@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Rube Goldberg Machine" />
+  <renderer width="1024" height="768" />
+
+  <!-- image file names -->
+  <images>
+    <image name="background" src="Images\\DSwallPlat.png" />
+  </images>
+
+  <!-- sprites -->
+  <sprites>
+    <sprite name="ball" file="Images\\r2d2A.png"/>
+    <sprite name="trooper" file="Images\\trooper.png"/>
+    <sprite name="button" file="Images\\button1.png"/>
+    <sprite name="Twall" file="Images\\Twall.png"/>
+    <sprite name="chewie" file="Images\\chewie.png"/>
+    <sprite name="solo" file="Images\\solo.png"/>
+    <sprite name="skywalker" file="Images\\skywalker.png"/>
+    <sprite name="leia" file="Images\\leia.png"/>
+    <sprite name="c3po" file="Images\\C-3PO.png"/>
+    <sprite name="vader" file="Images\\vader.png"/>
+    <sprite name="kenobi" file="Images\\kenobi.png"/>
+    <sprite name="platform" file="Images\\platform.png"/>
+    <sprite name="empire" file="Images\\empire.png"/>
+    <sprite name="tie" file="Images\\tie.png"/>
+    <sprite name="turbo" file="Images\\Turbolaser.png"/>
+    <sprite name="bounce" file="Images\\trampoline.png"/>
+    <sprite name="triangle" file="Images\\spike.png"/>
+    <sprite name="seesaw" file="Images\\seesaw.png"/>
+    <sprite name="laser" file="Images\\laser.png"/>
+    <sprite name="bucket" file="Images\\bucket.png"/>
+  </sprites>
+
+
+  <!-- sound -->
+  <sounds>
+    <sound file="Sounds\\thump2.wav" instances="8"/>
+    <sound file="Sounds\\tick.wav" instances="8"/>
+    <sound file="Sounds\\yay.wav" instances="1"/>
+    <sound file="Sounds\\opening.wav" instances="8"/>
+    <sound file="Sounds\\victory.wav" instances="8"/>
+    <sound file="Sounds\\droids.wav" instances="1"/>
+    <sound file="Sounds\\end.wav" instances="1"/>
+    <sound file="Sounds\\fall.wav" instances="1"/>
+    <sound file="Sounds\\music1.wav" instances="1"/>
+    <sound file="Sounds\\trash.wav" instances="1"/>
+    <sound file="Sounds\\turbolaser.wav" instances="1"/>
+  </sounds>
+  
+
+  <!-- debugger settings -->
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

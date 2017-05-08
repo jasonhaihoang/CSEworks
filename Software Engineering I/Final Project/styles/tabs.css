@@ -1,0 +1,63 @@
+/*----- Tabs -----*/
+.tabs{
+    	width:100%;
+    	display:inline-block;
+	margin-left: 1px;
+}
+ 
+
+    /*----- Tab Links -----*/
+    /* Clearfix */
+.tab-links:after{
+        display:block;
+        clear:both;
+        content:'';
+}
+ 
+
+.tab-links li{
+        margin:0px 2px;
+        float:left;
+        list-style:none;
+        padding:16px 20px;
+        display:inline-block;
+        box-shadow:4px 4px rgba(0,0,0,0.15);
+        background-color:#07324E;
+    	font-family: "Myriad Pro";
+        font-size:24px;
+        font-weight:100;
+        color:#FFFFFF;
+        transition:all linear 0.15s;
+}
+ 
+
+.tab-links li:hover{
+        background:#255777;
+        text-decoration:none;
+}
+
+
+li.active, li.active:hover{
+        background:#fff;
+        color:#255777;
+}
+ 
+    /*----- Content of Tabs -----*/
+.tab-content{
+	width: 830px;
+	heigth: 600px;
+        padding:15px;
+        border-radius:3px;
+        box-shadow:4px 4px rgba(0,0,0,0.15);
+        background:#07324E;
+}
+ 
+
+.tab{
+	display:none;
+}
+ 
+
+.tab.active{
+       	display:block;
+} 

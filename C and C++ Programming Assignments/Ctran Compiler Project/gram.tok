@@ -1,0 +1,102 @@
+%{
+#include "defs.h"
+char *start_expression_string(int);
+char *generate_doLoop();//generates the closing string in the C assembly Do loop
+int globalOffset = 0;	//used to keep track of the offset values within the symbol table for all variables
+int gOffsetTemp = 0;	//temporary offset register variable
+int gTempInc = 100;	//temporary increment register
+int gDoLoopID = 0;	//global variable used to track the current Do Loop being parsed
+int gIfLoopID = 0;	//global variable used to track the current if Loop being parsed
+int gEXPLoopID = 0;	//global variable used to track the current Exponential Loop being parsed
+int gOffsetCall = 0;	//global variable used to track the offset for the variable being called
+int gShiftLoopID = 0;	//global variable used to track the current SHIFT Loop being parsed
+%}
+
+%union 
+{
+        int intstuff;
+        char *stringstuff;
+        SymbolTableElement symbolstuff;  
+}
+
+%token ASG 
+%token <intstuff> intLiteral
+%token <symbolstuff> name
+%token <stringstuff> stringLiteral
+
+%token <stringstuff> MAIN /* main token */
+%token <stringstuff> BEGINT /* begin; token */
+%token <stringstuff> END	/* end; token */
+%token EXP
+%token INT
+%token CHAR
+%token BOOL
+%token VOID
+%token UNSIGNED
+%token gt
+%token ge
+%token le
+%token lt
+%token eq
+%token neq
+%token IF
+%token DO
+%token CONTINUE
+%token ELSE
+%token ANDT
+%token ORT
+%token TBOOL
+%token FBOOL
+%token <stringstuff> NOT
+%token <stringstuff> QUIT
+%token <stringstuff> RETURN
+%token <stringstuff> AMP
+%token <stringstuff> BOR
+%token <stringstuff> XOR
+
+%token <stringstuff> LSHIFT
+%token <stringstuff> RSHIFT
+%token <stringstuff> INCREMENT
+%token <stringstuff> DECREMENT
+%token <stringstuff> TILDA
+
+%token <stringstuff> PRINTI
+%token <stringstuff> PRINTLINE
+%token <stringstuff> PRINTS
+%token <stringstuff> PRINTC
+%token <stringstuff> PRINTH
+%token <stringstuff> READI
+
+/*This is the order of precedence*/
+%right EXP
+%left '-' '+'
+%left '*' '/' '%'
+%left '(' ')'
+
+%type <stringstuff> E
+%type <stringstuff> S /* statement_list */
+
+%type <stringstuff> ID
+%type <stringstuff> SBlock
+%type <stringstuff> Type
+%type <stringstuff> DeclList
+%type <stringstuff> Decl
+%type <stringstuff> FuncList
+%type <stringstuff> Func
+%type <stringstuff> ParmList
+%type <stringstuff> SizeList
+%type <stringstuff> Stmts
+%type <stringstuff> ExprList
+%type <stringstuff> ConditionalExpr
+%type <stringstuff> RelOp
+%type <stringstuff> DoList
+%type <intstuff> Enddo
+%type <stringstuff> BOP
+%type <stringstuff> BitTerm
+%type <stringstuff> ShiftOp
+%type <stringstuff> ShiftTerm
+%type <stringstuff> Term
+%type <stringstuff> Factor
+%type <stringstuff> UOperand
+%type <stringstuff> UOp
+%type <stringstuff> Primary

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="styles/card1.css"/>
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript" src="scripts/place_order.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="styles/help_refill_social_media.css"/>
+    <script type="text/javascript" src="scripts/place_order.js"></script>
+  </head>
+
+  <body>
+	
+    <img src="images/BG - Faded.png" />
+
+    <div id="ribbon"></div>
+
+    <div id="interface">
+       
+ 	<!-- Global Back Button -->
+	<button style="position: absolute;
+			width: 30px; height: 20px; font-size: 20px;
+			font-weight: 100; padding: 5px 70px 30px 5px;
+			margin-top: 5px; margin-left: 800px;"
+			onclick="location.href = 'newsplit_check.php'">Back
+	</button>
+	<!-- End Global Back Button -->
+	
+	<h1>Please slide Credit Card...</h1>
+	
+	<div id="main">	<!-- Process credit card -->
+        	<!-- <button id="button" type="order-button" onclick="location.href = 'Osplitcard2.html'"> Processing... </button> -->
+		<p>
+		<input type="password" id="ccNumber" autofocus>
+	</div>
+
+  </div>
+
+<script type="text/javascript">	// Run the script to process the credit card 
+var ccNumber = document.getElementById('ccNumber');
+
+ccNumber.onkeyup = function() {
+	if (ccNumber.value.length > 7)
+		window.location.href = 'Osplitcard2.html';
+
+}
+
+</script>
+  </body>
+<!-- Below is code for the Refill, Help, and Twitter Buttons -->
+
+<?php
+session_start();//This php code is utilized to continue the transfer of SESSION variables to the next page.
+?>
+	<div class="assistance" style="vertical-align: top; position: Relative; left: 130px; top: 650px; margin-right:200px;">
+		<!-- Refill -->
+		<button onclick="toggle_visibility('popup-box1');">Refill</button>
+		<!-- Help -->
+		<button onclick="toggle_visibility('popup-box2');">Help</button>
+	</div>
+	<div id="outer">
+	
+	<!-- Refill Interface -->
+	<div id="popup-box1" class="popup-position">
+	<div id="popup-wrapper">
+	    <form action="refill.php" method="post">	<!-- sends notification to waitstaff -->
+		<div id="popup-container">
+			<h3>Please Select the Drink(s) that you want refilled:</h3>
+			<table>	<!-- list of FREE refills only -->
+			    <tr>
+				<th></th>
+				<th>Drinks</th>
+			    </tr>
+			    <tr>
+				<td><input name="drink1" type="checkbox" value="Coke"></td>
+				<td>Coke</td>
+			    </tr>
+			    <tr>
+				<td><input name="drink2" type="checkbox" value="Sprite"></td>
+				<td>Sprite</td>
+			    </tr>
+			    <tr>
+				<td><input name="drink3" type="checkbox" value="Fanta"></td>
+				<td>Fanta</td>
+			    </tr>			
+			    <tr>
+				<td><input name="drink4" type="checkbox" value="Water"></td>
+				<td>Water</td>
+			    </tr>
+			</table>
+			<p><input name="drink-submit" type="submit" value="Submit" onclick="toggle_visibility('popup-box1');"></a></p>
+		</div>	<!-- input button submits notification -->
+	    </form>
+	</div>
+	</div>
+	
+	<!-- Help Interface -->
+    	<div id="popup-box2" class="popup-position">
+	<div id="popup-wrapper">
+	    <form action="help.php" method="post">	<!-- sends notification to waitstaff -->
+		<div id="popup-container">
+			<h3>HELP!</h3>
+			<p>The Wait staff has been notified! they will be with you shortly, Thank you!</p>
+			<p><input name="help-submit" type="submit" value="Close"  onclick="toggle_visibility('popup-box2');" text-align="right"></a></p>
+		</div>	<!-- input button submits notification -->
+	    </form>
+	</div>
+	</div>
+
+    </div>  <!-- Close Outer -->
+
+  </div>  <!-- Close Interface -->
+
+</html>

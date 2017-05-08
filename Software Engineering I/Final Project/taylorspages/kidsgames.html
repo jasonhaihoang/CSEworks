@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="styles/kidsgames.css"/>
+
+    <link type="text/css" rel="stylesheet" href="styles/help_refill_social_media.css"/>
+    
+    <script type="text/javascript" src="scripts/place_order.js"></script>
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript" src="scripts/login.js"></script>
+
+</head>
+
+<body>
+
+<img src="images/BG - Faded.png" />
+
+<div id="ribbon"></div>
+
+<div id="interface">
+
+    <!-- Global Back Button -->
+    <button style="position: absolute;
+		width: 30px; height: 20px; font-size: 20px;
+		font-weight: 100; padding: 5px 70px 30px 5px;
+		margin-top: 5px; margin-left: 800px;"
+		onclick="history.go(-1);">Back
+    </button>
+    <!-- End Global Back Button -->
+
+    <h1>Kids Games</h1>
+
+    <div class="top">
+        <button onclick="location.href = 'taylorspages/gameone.html' "> Game One </button>
+
+        <button onclick="location.href = 'taylorspages/hextris-gh-pages/index.html' "> Game Two </button>
+
+        <button onclick="location.href = 'taylorspages/AlienInvasion-master/index.html' "> Game Three </button>
+
+       <button onclick="location.href = 'taylorspages/meteornaut/deploy/index.html' "> Game Four </button>
+    </div>
+
+    <p>&nbsp</p>
+
+<!-- Below is code for the Refill, Help, and Twitter Buttons -->
+
+<?php
+session_start();
+?>
+	<div class="assistance" style="vertical-align: top; position: Relative; left: 130px; top: 650px; margin-right:200px;">
+		<!-- Refill -->
+		<button onclick="toggle_visibility('popup-box1');">Refill</button>
+		
+		<!-- Help -->
+		<button onclick="toggle_visibility('popup-box2');">Help</button>
+	</div>
+	<div id="outer">
+	
+	<div id="popup-box1" class="popup-position">
+
+	<div id="popup-wrapper">
+
+	    <form action="refill.php" method="post">
+
+		<div id="popup-container">
+			<h3>Please Select the Drink(s) that you want refilled:</h3>
+			<table>
+			    <tr>
+				<th></th>
+				<th>Drinks</th>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink1" type="checkbox" value="Coke"></td>
+				<td>Coke</td>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink2" type="checkbox" value="Sprite"></td>
+				<td>Sprite</td>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink3" type="checkbox" value="Fanta"></td>
+				<td>Fanta</td>
+			    </tr>			
+
+			    <tr>
+				<td><input name="drink4" type="checkbox" value="Water"></td>
+				<td>Water</td>
+			    </tr>
+			</table>
+			<p><input name="drink-submit" type="submit" value="Submit" onclick="toggle_visibility('popup-box1');"></a></p>
+		</div>
+
+	    </form>
+
+	</div>
+
+    </div>
+
+    <div id="popup-box2" class="popup-position">
+
+	<div id="popup-wrapper">
+	    <form action="help.php" method="post">
+		<div id="popup-container">
+			<h3>HELP!</h3>
+			<p>The Wait staff has been notified! they will be with you shortly, Thank you!</p>
+			<p><input name="help-submit" type="submit" value="Close"  onclick="toggle_visibility('popup-box2');" text-align="right"></a></p>
+		</div>
+	    </form>
+	</div>
+
+    </div>
+
+  </div>
+
+</html>

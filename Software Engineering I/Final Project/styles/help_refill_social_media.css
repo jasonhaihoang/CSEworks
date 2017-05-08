@@ -1,0 +1,62 @@
+.assistance button{
+    	width: 30px;
+    	height: 20px;
+    	font-size: 25px;
+    	font-weight: 100;
+    	padding: 5px 60px 30px 5px;
+}
+
+
+.logout button{
+    	width: 30px;
+    	height: 20px;
+    	font-size: 20px;
+    	font-weight: 100;
+    	padding: 5px 70px 30px 5px;
+    	margin-top: 10px;
+    	margin-left: 800px;	
+}
+
+
+.popup-position{
+    	display: none;
+    	position: fixed;
+    	bottom: 0;
+    	left: 0;
+    	top: 0;
+    	background-color: rgba(0,0,0,0.6);
+    	width: 100%;
+    	heighth: 100%;
+}
+
+
+#popup-wrapper{
+    	width: 400px;
+    	margin-top: 250px;
+    	text-align: left;
+}
+
+
+#popup-container{
+    	background-color: #FFF;
+    	padding: 15px;
+    	border-radius: 4px;
+}
+
+
+#popup-container td, tr, th{
+    	color: #FFFFFF;
+    	border: 1px solid black;
+    	margin-top: 5px;	
+    	font-size: 18px;
+    	text-align: center;
+}	
+		
+			
+#popup-container table{
+    	border-collapse: collapse;
+    	width: 50%;
+    	heighth: 100%;
+    	background-color: #07324E;
+    	box-shadow: 4px 4px #000000;
+}

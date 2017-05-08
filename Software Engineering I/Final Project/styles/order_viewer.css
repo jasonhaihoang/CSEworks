@@ -1,0 +1,332 @@
+body{
+	margin-top: 0px;
+	background-color: #46667a;
+	
+}
+
+
+#interface{
+    	position: absolute;
+    	margin-left: 40px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+}
+
+
+#Log_out{
+	background-color: #0d3149;
+	color: white;
+	border: none;
+	height:35px;
+	width: 80px;
+	font-size: 18px;
+	font-family: Arial;
+    	font-weight: 700;
+	position: absolute;
+    	margin-left: 260%;
+	margin-top: 2px;
+	padding: 5px 7px 7px 5px;
+    	margin-right: 1px;
+    	top:3px;
+    	cursor:pointer;
+}
+
+
+#table{
+	position: fixed;
+	background-color: #C0C0C0;
+	height: 720px;
+	width: 80%;
+	overflow-x: auto;
+	overflow-y: auto;	
+}
+	
+
+.menu-table{
+	table-layout: fixed; 
+	margin-left:5px; 
+	margin-top: 3%;
+    	overflow-x:scroll;
+    	height: 500px;
+    	width: 50%;
+}
+	
+	
+td{
+	padding:20px 7px;
+    	font-size:15px; 
+    	color:white; 
+    	background:black;
+    	width: 285px;
+}
+
+    
+td{
+	padding:5px 10px; 
+	height:35px;
+}
+
+	
+#claimed1{
+	position:absolute;
+    	font-size:18px; 
+    	color: #808080; 
+    	background-color: red;
+    	margin-left: 7px;
+    	margin-top: 0px;
+    	width: 90px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#inprogress1{
+	position:absolute;
+    	font-size: 18px; 
+    	color:#808080; 
+    	background-color: blue;
+    	margin-left: 101px;
+    	margin-top: 0px;
+    	width: 124px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#ready1{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: green;
+    	margin-left: 229px;
+    	margin-top: 0px;
+    	width: 80px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+	
+	
+#claimed2{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: red;
+    	margin-left: 30.8%;
+    	margin-top: 0px;
+    	width: 90px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#inprogress2{
+	position:absolute;
+    	font-size: 18px; 
+    	color:#808080; 
+    	background-color: blue;
+    	margin-left: 40%;
+    	margin-top: 0px;
+    	width: 124px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#ready2{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: green;
+    	margin-left: 52.5%;
+    	margin-top: 0px;
+    	width: 80px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#claimed3{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: red;
+    	margin-left: 61.1%;
+    	margin-top: 0px;
+    	width: 90px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+	
+#inprogress3{
+	position:absolute;
+    	font-size: 18px; 
+    	color:#808080; 
+    	background-color: blue;
+    	margin-left: 70.1%;
+    	margin-top: 0px;
+    	width: 124px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#ready3{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: green;
+    	margin-left: 82.5%;
+    	margin-top: 0px;
+    	width: 80px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#claimed4{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: red;
+    	margin-left: 91.2%;
+    	margin-top: 0px;
+    	width: 90px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+	
+
+#inprogress4{
+	position:absolute;
+    	font-size: 18px; 
+    	color:#808080; 
+    	background-color: blue;
+    	margin-left: 100.3%;
+    	margin-top: 0px;
+    	width: 124px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;	
+}
+	
+
+#ready4{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: green;
+    	margin-left: 112.7%;
+    	margin-top: 0px;
+    	width: 80px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#claimed5{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: red;
+    	margin-left: 120.9%;
+    	margin-top: 0px;
+    	width: 90px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#inprogress5{
+	position:absolute;
+    	font-size: 18px; 
+    	color:#808080; 
+    	background-color: blue;
+    	margin-left: 130.2%;
+    	margin-top: 0px;
+    	width: 124px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#ready5{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: green;
+    	margin-left: 142.8%;
+    	margin-top: 0px;
+    	width: 80px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#claimed6{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: red;
+    	margin-left: 151%;
+    	margin-top: 0px;
+    	width: 90px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#inprogress6{
+	position:absolute;
+    	font-size: 18px; 
+    	color:#808080; 
+    	background-color: blue;
+    	margin-left: 160.1%;
+    	margin-top: 0px;
+    	width: 124px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+
+	
+#ready6{
+	position:absolute;
+    	font-size:18px; 
+    	color:#808080; 
+    	background-color: green;
+    	margin-left: 172.5%;
+    	margin-top: 0px;
+    	width: 80px;
+    	height: 30px;
+    	cursor: pointer;
+    	text-align: center;
+}
+	
+
+#remove_addmenu{
+    	position: relative;
+    	font-size:18px; 
+    	color: white; 
+    	background-color: red;
+    	margin-left: 20px;
+    	margin-top: 240%;
+    	width: 220px;
+    	height: 40px;
+    	cursor: pointer;
+    	text-align: center;
+}

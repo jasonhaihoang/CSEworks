@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:text="#"/>
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="16dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:paddingRight="10dip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:paddingRight="10dip"
+            android:text="-" />
+        <TextView
+            android:text="Set Number"
+            android:layout_width="87dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:paddingRight="10dip"
+            android:text="Front to Back" />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:padding="2dip"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:text="Side to Side"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:text="Number of Counts"/>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:text="Measures"/>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:text="Field Number"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="fill_parent"
+            android:padding="2dip"
+            android:text="Show ID"/>
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dip" />
+    </LinearLayout>
+
+</LinearLayout>

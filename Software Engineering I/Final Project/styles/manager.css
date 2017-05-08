@@ -1,0 +1,136 @@
+body{
+    	margin-top: 0px;
+    	background-color: #46667a;
+}
+
+
+.col1{
+	float:left;
+	border:1px solid;
+	width:250px;
+}
+
+
+h1{
+    	top: 45px;
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+h2{
+    	font-size: 16pt;
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;
+	background-color: green;
+}
+
+
+h3{
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+img{
+    	position: absolute;
+}
+
+
+#ribbon{
+    	position: absolute;
+    	left: 80px;
+    	background-color: #0d3149;
+    	width: 40px;
+    	height: 720px;
+}
+
+
+#interface{
+    	position: absolute;
+    	margin-left: 125px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+}
+
+
+ul#menu li{
+    	display:inline;
+    	color: white;
+	padding: 35px;
+}
+
+
+#menu1 {
+    	display:inline;
+    	color: white;
+	padding: 0px;
+	float:left;
+}
+
+
+#menu2 {
+    	display:inline;
+    	color: white;
+	padding: 0px;
+
+}
+
+
+.btn{
+  	font-family: Arial;
+  	color: #ffffff;
+  	font-size: 15px;
+  	background: #c42020;
+  	padding: 15px 40px 19px 40px;
+  	text-decoration: none;
+	display:inline;
+  	border: none;
+}
+
+
+.btn:hover{
+    	background-color: #0d3149;
+  	text-decoration: none;
+}
+
+
+table{
+	position: absolute;
+ 	border-spacing: 85px 0px;
+}
+
+
+div.scroll{
+    	background-color: #0d3149;
+    	width: 297px;
+    	height: 100px;
+    	overflow: auto;
+
+}
+
+
+div.scroll2{
+    	background-color: #0d3149;
+    	width: 200px;
+    	height: 100px;
+    	overflow: auto;
+	float: right;
+	margin: 5px;
+}
+
+
+div.buttons{
+	margin: 0px 25px;
+} 
+
+
+th{
+	color: white;
+}
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="styles/chancegame.css"/>
+    <link type="text/css" rel="stylesheet" href="styles/help_refill_social_media.css"/>
+    <script type="text/javascript" src="scripts/place_order.js"></script>
+    <script>
+	var add =0;
+	function counter(){
+		add=add+1;
+		
+	}
+	
+	//function to play lottery
+        function spin(){
+		//they can play it only twice.
+		if(add < 2){
+ 	           	var status = document.getElementById("status");
+			//the customer has a chance of winning 1/5
+            		var d = Math.floor(Math.random() * 5) + 1;
+			//coupon number is a random 4 digit number
+            		var coupon = Math.floor((Math.random()*9000) +1000);
+			//if 1 is thrown, they win
+	                if(d == 1){
+	                window.alert("You Win! Your coupon code will be displayed. Remember it within 5 seconds or else!");
+        	        document.getElementById('result').innerHTML = coupon;
+                	setTimeout(cont, 5000); //they have 5 secs to memorize coupon code
+
+            	}
+           	 else {
+			//if not 1, they lose the lottery
+                	document.getElementById('result').innerHTML = "You lost :(";
+ 	         }
+		}
+		else{    //after playing twice
+			window.alert("You can only play twice a visit.");
+			
+			location.href='place_order.php?game=1';
+		}
+		//calling this counter increases the number of "add"
+		counter();
+  	}
+	//after 5 secs of printing coupon code, the system will jump to a registration page
+        function cont(){
+            location.href='registercoupon.php?';
+        }
+    </script>
+
+
+</head>
+
+
+<img src="images/BG - Faded.png" />
+
+<div id="ribbon"></div>
+
+<div id="interface">
+
+	<!--where logout button/back button show-->
+    <div class="logout">
+        <form action="chancegame.php" method="post">
+            <input type="hidden" name="coupone_code" value = "result" required>
+            <br>
+        </form>
+        <button onclick="location.href='place_order.php'">Back</button>
+    </div>
+
+    <h1>Restaraunt Lottery</h1>
+
+    <?php
+        $d = date(mdY);
+        echo "$d";
+    ?>
+
+	<!--lottery button. By clicking the button, the lottery will call JS function-->
+    <div id="order-box">
+        <!---<div id="wheel" class="dice">0</div>--->
+        <h3>Play this lottery for a chance to win a $10 coupon. Just click the button! </h3>
+        <div class="spin" >
+            <button id="spinButton" onclick="spin()">Play the Lottery</button>
+            <p id="result"> </p>
+            <h2 id="status" style="clear:left;"></h2>
+        </div>
+
+    </div>
+</div>
+</body>
+
+<!-- Below is code for the Refill, Help, and Twitter Buttons -->
+
+<?php
+session_start();
+?>
+	<!-- refill and help. Calling JS functions -->
+	<div class="assistance" style="vertical-align: top; position: Relative; left: 130px; top: 650px; margin-right:200px;">
+		<!-- Refill -->
+		<button onclick="toggle_visibility('popup-box1');">Refill</button>
+		
+		<!-- Help -->
+		<button onclick="toggle_visibility('popup-box2');">Help</button>
+	</div>
+	<div id="outer">
+	
+	<div id="popup-box1" class="popup-position">
+
+	<div id="popup-wrapper">
+
+	<!-- form and method=post for extracting data from user's input in the form -->
+	    <form action="refill.php" method="post">
+
+		<div id="popup-container">
+			<h3>Please Select the Drink(s) that you want refilled:</h3>
+			<table> <!--table for refill. Show a refill menu of drinks-->
+			    <tr>
+				<th></th>
+				<th>Drinks</th>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink1" type="checkbox" value="Coke"></td>
+				<td>Coke</td>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink2" type="checkbox" value="Sprite"></td>
+				<td>Sprite</td>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink3" type="checkbox" value="Fanta"></td>
+				<td>Fanta</td>
+			    </tr>			
+
+			    <tr>
+				<td><input name="drink4" type="checkbox" value="Water"></td>
+				<td>Water</td>
+			    </tr>
+			</table>
+			<p><input name="drink-submit" type="submit" value="Submit" onclick="toggle_visibility('popup-box1');"></a></p>
+		</div>
+
+	    </form>
+
+	</div>
+
+    </div>
+
+    <div id="popup-box2" class="popup-position">
+
+	<!-- This if for help. whenever they click on help button in the lower left corner,
+	wait staff will be notified -->
+	<div id="popup-wrapper">
+	    <form action="help.php" method="post">
+		<div id="popup-container">
+			<h3>HELP!</h3>
+			<p>The Wait staff has been notified! they will be with you shortly, Thank you!</p>
+			<p><input name="help-submit" type="submit" value="Close"  onclick="toggle_visibility('popup-box2');" text-align="right"></a></p>
+		</div>
+	    </form>
+	</div>
+
+    </div>
+
+  </div>
+
+</html>

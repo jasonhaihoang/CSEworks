@@ -1,0 +1,66 @@
+     int x;		# starts at offset 0 in global array's symbol entry
+                          AND  global_offset by size x (4)
+     char c;		# stored 4
+     boolean george	# george 5
+     int A[43];		# stored at 6 .. 177
+     int offset;        # 178 .. 181
+
+
+     loop forever
+
+            A[i] = A[i+1] * 4;
+            offset = i * 4 + 6 + globalArray;
+
+            *(globalArray + 102 )
+
+****************************************************************************
+
+
+
+   What do CTran IFs look like in C code.
+
+    if( B .lt. x  or B .neq. 0)
+
+         if( B .lt. x) goto CompoundIfThen1
+
+             if ( B == 0 ) goto CompoundIfEnd1
+
+CompoundIfThen1                    
+			# actually execute my if statements.
+
+goto CompoundIfEnd1
+
+CompoundIfEnd1
+
+
+
+
+
+
+
+
+
+
+    begin
+	if( x .eq. 0 )		#		if( x != 0 ) goto ElseCode6
+	begin			#		    printLine()
+                                                    printi
+            printLine()                         goto IFend6
+	    printi(x)
+	end
+	else			#       ElseCode6
+	begin			#		      code for else.
+	    printi(x)
+	end			#       IFend6   whatever comes next
+    end
+    printLine()     
+end
+
+         
+
+            
+
+             
+  
+
+#  A is stored in globalData based upon offset computed when you see declaration.

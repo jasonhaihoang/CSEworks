@@ -1,0 +1,45 @@
+
+DEMONSTRATION 1: 3-Way Handsake
+
+TCP SYN header info SENT(in hexadecimal form):
+Source Port:3930  Destination Port:7cc9  Sequence Number:1
+Acknowledgement Number: 0  Data Offset-Reserved-Flags:6002  Checksum:ea02
+TCP SYN segment sent!
+
+TCP SYN-ACK header info RECV(in hexadecimal form):
+Source Port:7cc9  Destination Port:3930  Sequence Number:3e8
+Acknowledgement Number: 2  Data Offset-Reserved-Flags:6012  Checksum:e609
+TCP SYN-ACK segment recieved!
+Checksums MATCH! TCP segment not corrupted.
+
+TCP ACK header info SENT(in hexadecimal form):
+Source Port:3930  Destination Port:7cc9  Sequence Number:2
+Acknowledgement Number: 3e9  Data Offset-Reserved-Flags:6010  Checksum:e60a
+TCP ACK segment sent!
+
+TCP 3-way handshake COMPLETE!
+
+DEMONSTRATION 2: Closing TCP Connection
+
+TCP FIN header info SENT(in hexadecimal form):
+Source Port:3930  Destination Port:7cc9  Sequence Number:1
+Acknowledgement Number: 0  Data Offset-Reserved-Flags:6001  Checksum:ea03
+TCP FIN segment sent!
+
+TCP ACK header info RECV(in hexadecimal form):
+Source Port:7cc9  Destination Port:3930  Sequence Number:3e8
+Acknowledgement Number: 2  Data Offset-Reserved-Flags:6010  Checksum:e60b
+TCP ACK segment recieved!
+Checksums MATCH! TCP segment not corrupted.
+
+TCP FIN header info RECV(in hexadecimal form):
+Source Port:7cc9  Destination Port:3930  Sequence Number:3e9
+Acknowledgement Number: 0  Data Offset-Reserved-Flags:6001  Checksum:e61b
+TCP FIN segment recieved!
+Checksums MATCH! TCP segment not corrupted.
+
+TCP ACK header info SENT(in hexadecimal form):
+Source Port:3930  Destination Port:7cc9  Sequence Number:2
+Acknowledgement Number: 3ea  Data Offset-Reserved-Flags:6010  Checksum:e609
+TCP ACK segment sent!
+

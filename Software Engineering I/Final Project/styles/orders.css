@@ -1,0 +1,26 @@
+body{
+    	margin-top: 0px;
+    	background-color: #46667a;
+}
+
+
+img{
+    	position: fixed;
+}
+
+
+#ribbon{
+    	position: absolute;
+    	left: 80px;
+    	background-color: #0d3149;
+    	width: 40px;
+    	height: 720px;
+}
+
+
+#interface{
+    	position: absolute;
+    	margin-left: 125px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+}

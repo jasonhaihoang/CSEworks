@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="styles/card2.css"/>
+    <link type="text/css" rel="stylesheet" href="styles/help_refill_social_media.css"/>
+    <script type="text/javascript" src="scripts/place_order.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <script type="text/javascript" src="scripts/place_order.js"></script>
+    
+  </head>
+
+  <body>
+
+    <img src="images/BG - Faded.png" />
+
+    <div id="ribbon"></div>
+
+    <div id="interface">
+
+        <h1>Payment Approved</h1>
+	
+	<div id="main">	<!-- Print Receipt -->
+
+        	<button id="button" type="order-button"  onclick="printAndAlert()">Print Receipt</button>
+
+		<h1>Or</h1>
+		
+		<form action="OsplitCredit.php" method="post">	<!-- Posts email info to the receipt php code -->
+			<h1>Type Email:</h1>
+			<input type="text" name="email" placeholder="example@domain.com" style="width:30vw;" autofocus>
+			<br>
+			<button id="button" type="submit" name="email-button" value="Email" required>Email Receipt</button>
+		</form>
+	
+	</div>
+
+</div>
+
+<script>	<!-- Alert to print receipt -->
+function printAndAlert() {
+	window.print();
+	alert("Please take your Receipt!");
+	location.href='OsplitCredit.php';
+}
+</script>
+
+  </body>
+	
+<!-- Below is code for the Refill and Help -->
+
+	<div class="assistance" style="vertical-align: top; position: Relative; left: 130px; top: 650px;  margin-right:200px;">
+		<!-- Refill -->
+		<button onclick="toggle_visibility('popup-box1');">Refill</button>
+		
+		<!-- Help -->
+		<button onclick="toggle_visibility('popup-box2');">Help</button>
+	</div>
+	<div id="outer">
+	<!-- Refill Interface -->
+	<div id="popup-box1" class="popup-position">
+
+	<div id="popup-wrapper">
+
+	    <form action="refill.php" method="post">	<!-- sends notification to waitstaff -->
+		
+		<div id="popup-container">
+			<h3>Please Select the Drink(s) that you want refilled:</h3>
+			<table>	<!-- list of FREE refills only -->
+			    <tr>
+				<th></th>
+				<th>Drinks</th>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink1" type="checkbox" value="Coke"></td>
+				<td>Coke</td>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink2" type="checkbox" value="Sprite"></td>
+				<td>Sprite</td>
+			    </tr>
+
+			    <tr>
+				<td><input name="drink3" type="checkbox" value="Fanta"></td>
+				<td>Fanta</td>
+			    </tr>			
+
+			    <tr>
+				<td><input name="drink4" type="checkbox" value="Water"></td>
+				<td>Water</td>
+			    </tr>
+			</table>
+			<p><input name="drink-submit" type="submit" value="Submit" onclick="toggle_visibility('popup-box1');"></a></p>
+		</div>	<!-- input button submits notification -->
+
+	    </form>
+
+	</div>
+
+    </div>
+    <!-- Help Interface -->
+    <div id="popup-box2" class="popup-position">
+
+	<div id="popup-wrapper">
+		<div id="popup-container">	<!-- sends notification to waitstaff -->
+			<h3>HELP!</h3>
+			<p>The Wait staff has been notified! they will be with you shortly, Thank you!</p>
+			<p><a href="javascript:void(0)" onclick="toggle_visibility('popup-box2');" text-align="right">Close</a></p>
+		</div>	<!-- input button submits notification -->
+	</div>
+
+    </div>  <!-- Close Outer -->
+
+  </div>  <!-- Close Interface -->
+
+</html>

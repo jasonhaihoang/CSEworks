@@ -1,0 +1,113 @@
+body{
+    	margin-top: 0px;
+    	background-color: #46667a;
+}
+
+
+#ribbon{
+    	position: absolute;
+    	left: 80px;
+    	background-color: #0d3149;
+    	width: 40px;
+    	height: 720px;
+}
+
+
+#interface{
+    	position: absolute;
+    	margin-left: 125px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+}
+
+
+img{
+    	position: fixed;
+}
+
+
+#img-resize{
+    	position: static;
+    	width:250px; /* you can use % */
+    	height: "100%";
+}
+
+
+#main{
+    	float:left;
+    	width:250px;
+}
+
+
+#sidebar{
+    	float:left;
+    	width:250px;
+}
+
+
+#help-button{
+    	background-color: #0d3149;
+    	margin-top: 10px;
+    	width: 60px;
+    	height: 25px;
+    	line-height: 25px;
+    	font-size: 10pt;
+    	text-align: center;
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+#button{	
+  	background-color: #0d3149;
+    	margin-top: 10px;
+    	width: 220px;
+    	height: 70px;
+    	line-height: 70px;
+    	font-size: 16pt;
+    	text-align: center;
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;	
+    	border: none;	
+}
+
+#order-button{
+    	background-color: #0d3149;
+    	margin-top: 10px;
+    	width: 220px;
+    	height: 70px;
+    	line-height: 70px;
+    	font-size: 16pt;
+    	text-align: center;
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+#menu-table{
+  	background-color: #0d3149;
+    	margin-top: 10px;
+    	width: 800px;
+    	height: 70px;
+    	line-height: 20px;
+    	font-size: 16pt;
+    	color: white;
+    	font-family: "Myriad Pro", Helvetica, sans-serif;	
+    	border: none;
+}
+
+
+table{
+	color: white;
+}
+
+
+.back button{
+    	width: 30px;
+    	height: 20px;
+    	font-size: 20px;
+    	font-weight: 100;
+    	padding: 5px 70px 30px 5px;
+    	margin-top: 10px;
+    	margin-left: 800px;	
+}

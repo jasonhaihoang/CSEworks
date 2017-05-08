@@ -1,0 +1,195 @@
+body {
+
+    margin-top: 0px;
+
+    background-color: #46667a;
+
+}
+
+
+
+img {
+
+    position: fixed;
+
+}
+
+
+
+#ribbon {
+
+    position: absolute;
+
+    left: 80px;
+
+    background-color: #0d3149;
+
+    width: 40px;
+
+    height: 720px;
+
+}
+
+
+
+#interface {
+
+    position: absolute;
+
+    margin-left: 125px;
+
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+h1{
+    color: #FFFFFF;
+    font-weight: 100;
+    font-family: "Myriad Pro";
+}
+h2{
+    color: #FFFFFF;
+    font-weight: 30;
+    font-family: "Myriad Pro";
+}
+
+#order-box {
+    background-color: #07324E;
+    color: #FFFFFF;
+    width: 800px;
+    height: 400px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 2px;
+    border: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.bot button {
+    width: 384px;
+}
+
+.assistance button{
+    width: 30px;
+    height: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 5px 60px 30px 5px;
+
+}
+
+.logout button{
+    width: 30px;
+    height: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px 70px 30px 5px;
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+
+button{
+    background-color: #07324E;
+    color: #FFFFFF;
+    width: 320px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 2px;
+    border: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    box-shadow: 4px 4px #000000;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #255777;
+}
+
+button:active{
+    position: relative;
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+    border: none!important;
+    outline: none!important;
+    background-color: #042A43;
+}
+
+button:focus{
+    position: relative;
+    left: 4px;
+    top: 4px;
+    box-shadow: none;
+    border: none!important;
+    outline: none!important;
+    background-color: #255777;
+}
+
+.popup-position{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    heighth: 100%;
+}
+
+#popup-wrapper{
+    width: 400px;
+    margin-top: 450px;
+    text-align: left;
+}
+
+#popup-container{
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.submit button{
+    width: 800px;
+    background-color: red;
+    border: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.goback button{
+    width: 800px;
+    background-color: green;
+    border: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.spin button{
+    width: 700px;
+    background-color: lightskyblue;
+    border: none;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+div.wheel{
+    float:left;
+    width: 32px;
+    background:#F5F5F5;
+    border:#999 0px solid;
+    padding:0px;
+    font-size:0px;
+    text-align:center;
+    margin:5px;
+    color: #07324E;
+}
+p{
+    text-align: center;
+}

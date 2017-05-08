@@ -1,0 +1,126 @@
+.register-form{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	color: black;
+	background : #c4c4c4;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+}
+
+
+.register-form form input{
+	padding: 5px;
+}
+
+
+.register-form .btn{
+	background: #726E6E;
+	padding: 7px;
+	border-radius: 5px;
+	text-decoration: none;
+	width: 50px;
+	display: inline-block;
+	color: black;
+}
+
+
+.register-form .register{
+	border: 0;	
+	width: 60px;
+	padding: 8px;
+}
+
+
+body{
+	margin-top: 0px;
+	background-color: #46667a;
+}
+
+
+img{
+	position: fixed;
+}
+
+
+#ribbon{
+	position: absolute;
+	left: 80px;
+	background-color: #0d3149;
+	width: 40px;
+	height: 720px;
+}
+
+
+#interface{
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+h1{
+	top: 45px;
+	font-size: 48pt;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+h2{
+	font-size: 16pt;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+#username{
+	top: 170px;
+}
+
+
+#username-input{
+	top: 180px;
+}
+
+
+#password{
+	top: 320px;
+}
+
+
+#password-input{
+	top: 330px;
+}
+
+
+
+#login-button{
+	background-color: #0d3149;
+	border-style: none;
+	margin-top: 10px;	
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12pt;
+	text-align: center;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+#create-account-button{
+	background-color: #0d3149;
+	border-style: none;
+	margin-top: 10px;
+	width: 170px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12pt;
+	text-align: center;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+}

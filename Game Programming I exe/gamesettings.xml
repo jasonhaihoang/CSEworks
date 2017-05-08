@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings for Ned's Turkey Farm -->
+
+<settings>
+
+  <!-- general settings -->
+
+  <game name="Ned Demo 9: Pixel Shaders"/>
+
+  <!-- renderer settings -->
+
+  <renderer width="1024" height="768" shadermodel="5_0"/>
+
+  <!-- image file names -->
+
+  <images>
+    <image src="Images\sky.fw.png" />
+    <image src="Images\ground.fw.png" />
+    <image src="Images\black.png" />
+    <image src="Images\platform.png" />
+    <image src="Images\spike.png" />
+    <image src="Images\trampoline.png" />
+  </images>
+  
+  <!-- sprites -->
+  
+  <sprites>
+    <sprite name="lplane" file="Images\lplane" ext="png" frames="5"/>
+    <sprite name="plane" file="Images\plane" ext="png" frames="5"/>
+    <sprite name="damagedplane" file="Images\HurtPlane" ext="png" frames="5"/>
+    <sprite name="damagedLplane" file="Images\HurtLPlane" ext="png" frames="5"/>
+    <sprite name="verydamagedplane" file="Images\VHurtPlane" ext="png" frames="5"/>
+    <sprite name="verydamagedLplane" file="Images\VHurtLPlane" ext="png" frames="5"/>
+    <sprite name="explodingplane" file="Images\\planeex" ext="png" frames="4" />
+    <sprite name="deadplane" file="Images\\DeadPlane" ext="png" frames="1" />
+    <sprite name="crow" file="Images\crow" ext="png" frames="1"/>
+    <sprite name="explodingcrow" file="Images\crowex" ext="png" frames="3"/>
+    <sprite name="deadcrow" file="Images\crowdead" ext="png" frames="1"/>
+    <sprite name="turret" file="Images\cannon" ext="png" frames="1"/>
+    <sprite name="boss" file="Images\boss" ext="png" frames="1"/>
+    <sprite name="explodingboss" file="Images\\Dboss" ext="png" frames="8" />
+    <sprite name="leftboss" file="Images\\bThrow" ext="png" frames="1" />
+    <sprite name="cannonball" file="Images\cannonball" ext="png" frames="1"/> -->
+    <sprite name="bullet" file="Images\lbullet" ext="png" frames="1"/>
+    <sprite name="rbullet" file="Images\rBullet" ext="png" frames="1"/>
+    <sprite name="dashL" file="Images\dash" ext="png" frames="1"/>
+    <sprite name="dashR" file="Images\Rdash" ext="png" frames="1"/>
+    <sprite name="bullet2" file="Images\cannonball" ext="png" frames="1"/>  <!-- bullet2 -->
+    <sprite name="shield" file="Images\shield" ext="png" frames="1"/>  <!-- bullet2 -->
+    <sprite name="shield2" file="Images\shield" ext="png" frames="1"/>  <!-- bullet2 -->
+    <!-- <sprite name="house" file="Images\house" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="corn" file="Images\corn" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="silo" file="Images\silo" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="outhouse" file="Images\outhouse" ext="png" frames="1" bottomorigin="1"/> -->
+    <sprite name="fence" file="Images\plainfence" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="tree0" file="Images\tree0" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="tree1" file="Images\tree1" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="tree2" file="Images\tree2" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="tree3" file="Images\tree3" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="tree4" file="Images\tree4" ext="png" frames="1" bottomorigin="1"/>
+    <sprite name="smallcloud" file="Images\smallcloud" ext="png" frames="1"/>
+    <sprite name="longcloud" file="Images\longcloud" ext="png" frames="1"/>
+    <sprite name="darkcloud" file="Images\darkcloud" ext="png" frames="1"/>
+    <!-- <sprite name="truck" file="Images\truck" ext="png" frames="3" bottomorigin="1"/> -->
+    <sprite name="hud" file="Images\hud" ext="png" frames="1"/>
+  </sprites>
+
+  <!-- objects-->
+
+  <objects>
+    <object name="lplane"
+      minxspeed="-10" maxxspeed="-1"
+      minyspeed="-4" maxyspeed="4"
+      frameinterval="300"
+      fly="1"
+      cycle="1"
+      animation="0,1,2,3,4,3,2,1"
+    />
+  
+    <object name="plane"
+      minxspeed="-10" maxxspeed="-1" 
+      minyspeed="-4" maxyspeed="4" 
+      frameinterval="300"
+            
+      fly="1"
+      cycle="1"
+      animation="0,0,0,0,0,0,0,0"
+    />
+
+    <object name="damagedplane"
+      minxspeed="-10" maxxspeed="-1"
+      minyspeed="-4" maxyspeed="4"
+      frameinterval="400"
+      fly="1"
+      cycle="1"
+      animation="0,1,2,3,4"
+    />
+
+    <object name="verydamagedplane"
+      minxspeed="-10" maxxspeed="-1"
+      minyspeed="-4" maxyspeed="4"
+      frameinterval="400"
+      fly="1"
+      cycle="1"
+      animation="0,1,2,3,4"
+    />
+    
+        <object name="damagedLplane"
+      minxspeed="-10" maxxspeed="-1"
+      minyspeed="-4" maxyspeed="4"
+      frameinterval="400"
+      fly="1"
+      cycle="1"
+      animation="0,1,2,3,4"
+    />
+
+    <object name="verydamagedLplane"
+      minxspeed="-10" maxxspeed="-1"
+      minyspeed="-4" maxyspeed="4"
+      frameinterval="400"
+      fly="1"
+      cycle="1"
+      animation="0,1,2,3,4"
+    />
+
+    <object name="explodingplane"
+      minxspeed="-10" maxxspeed="-1"
+      minyspeed="-4" maxyspeed="4"
+      frameinterval="100"
+      vulnerable="0"
+      cycle="0"
+      fly="1"
+      animation="0,1,2,3"
+      static="0"
+	  />
+
+    <object name="deadplane"
+			minxspeed="-10" maxxspeed="-1"
+			minyspeed="-4" maxyspeed="4"
+			frameinterval="1000"
+			cycle="0"
+			fly="1"
+			vulnerable="0"
+			static="0"
+			lifetime="3000"
+		/>
+
+    <object name="crow"
+      minxspeed="-4" maxxspeed="-1" 
+      minyspeed="-1" maxyspeed="1" 
+      frameinterval="250" 
+      vulnerable="1"
+      grounded="1"
+      cycle="1"
+    />
+
+     <object name="turret"
+      minxspeed="-4" maxxspeed="-1"
+      minyspeed="-1" maxyspeed="1"
+      
+      vulnerable="0"
+      grounded="1"
+      cycle="1"
+             static="1"
+    /> 
+
+     <object name="boss"
+      minxspeed="-4" maxxspeed="-1"
+      minyspeed="-1" maxyspeed="1"
+      frameinterval="250"
+      vulnerable="1"
+      grounded="1"
+      cycle="1"
+    />
+
+    <object name="leftboss"
+      minxspeed="-4" maxxspeed="-1"
+      minyspeed="-1" maxyspeed="1"
+      frameinterval="250"
+      vulnerable="1"
+      grounded="1"
+      cycle="1"
+    />
+
+    <object name="bullet" fly="1" lifetime="100"/>
+    <object name="rbullet" fly="1" lifetime="100"/>
+    <object name="bullet2" fly="0" lifetime="700"/>
+    <object name="dashL" fly="1" lifetime="300"/>
+    <object name="dashR" fly="1" lifetime="300"/>
+    
+    <object name="shield" fly="1" lifetime="600"/>
+    <object name="shield2" fly="1" lifetime="500"/>
+
+    <!-- <object name="shield" fly="1" lifetime="600"/> -->
+
+    <object name="explodingcrow" frameinterval="100" fly="1"
+      animation="0,1,2"/>
+
+    <object name="explodingboss" frameinterval="100" grounded="1"
+  animation="0,1,2,3,4,5,6,7"/>
+
+    <!-- <object name="truck" grounded="1"            
+      minxspeed="-20" maxxspeed="-1" minyspeed="0" maxyspeed="0"
+      cycle="1" frameinterval="250" animation="0,2,1"/> -->
+
+    <object name="deadcrow"/>
+    <!-- <object name="house" grounded="1"/>
+    <object name="outhouse" grounded="1"/>
+    <object name="corn" grounded="1"/>
+    <object name="silo" grounded="1"/> -->
+    <object name="fence" grounded="1"/>
+    <object name="tree" grounded="1"/>
+    <object name="cloud" fly="1"/>
+  </objects>
+
+  <!-- instances-->
+
+  <instances>
+    <!-- <instance typename="house" name="house" position="500,0,400"/>
+    <instance typename="outhouse" name="outhouse" position="250, 0, 500"/>
+    <instance typename="silo" name="silo" position="1500,0,650"/> -->
+
+    <instance typename="tree 0" name="tree" copies="20" position="350,200,950"/>
+    <instance typename="tree 1" name="tree" copies="20" position="0,190,1300"/>
+    <instance typename="tree 2" name="tree" copies="20" position="1200,150,900"/>
+    <instance typename="tree 3" name="tree" copies="20" position="800,170,1140"/>
+    <instance typename="tree 3" name="tree" copies="20" position="1800,205,1250"/>
+
+    <!-- <instance typename="corn" name="corn" copies="30" position="10,0,750"/>
+    <instance typename="corn" name="corn" copies="30" position="10,0,850"/>
+    <instance typename="corn" name="corn" copies="30" position="10,0,950"/>
+    <instance typename="corn" name="corn" copies="30" position="10,0,1050"/>
+    <instance typename="corn" name="corn" copies="30" position="10,0,1150"/>
+    <instance typename="corn" name="corn" copies="30" position="10,0,1250"/> -->
+
+    <instance typename="fence" name="fence" copies="16" position="0,0,900"/>
+    <instance typename="fence" name="fence" copies="16" position="0,126,900"/>
+
+    <!-- <instance typename="truck" name="truck" 
+      position="700,0,200" velocity="-5.5, 0, 0"/> -->
+
+    <instance typename="small cloud" name="cloud" 
+      position="0, 670, 250" velocity="2, 0, 0"/>
+    <instance typename="small cloud" name="cloud"
+      position="400, 800, 350" velocity="3.5, 0, 0"/>
+    <instance typename="small cloud" name="cloud"
+      position="800, 750, 650" velocity="2.5, 0, 0"/>
+    <instance typename="small cloud" name="cloud"
+      position="1200, 700, 850" velocity="3, 0, 0"/>
+
+    <instance typename="long cloud" name="cloud"
+      position="1500, 620, 450" velocity="4, 0, 0"/>
+    <instance typename="long cloud" name="cloud"
+      position="500, 770, 630)" velocity="4.5, 0, 0"/>
+
+    <instance typename="dark cloud" name="cloud"
+      position="200, 880, 700" velocity="7.0, 0, 0"/>
+    <instance typename="dark cloud" name="cloud"
+      position="1200, 780, 280" velocity="6.0, 0, 0"/>
+  </instances>
+
+  <!-- sounds-->
+
+  <sounds>
+    <sound file="Sounds\crab.wav" instances="4"/>
+    <sound file="Sounds\jump3.wav" instances="4"/>
+    <sound file="Sounds\boom.wav" instances="4"/>
+    <sound file="Sounds\thump.wav" instances="4"/>
+    <sound file="Sounds\silence.wav"/>
+    <sound file="Sounds\jump1.wav"/>
+    <!-- <sound file="Sounds\truck.wav"/> -->
+    <sound file="Sounds\stings.wav" instances="1"/>
+    <sound file="Sounds\smarts.wav"/>
+    <sound file="Sounds\adventure.wav"/>
+  </sounds>
+  
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

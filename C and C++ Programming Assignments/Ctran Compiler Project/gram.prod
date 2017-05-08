@@ -1,0 +1,727 @@
+%start statement_list 
+
+%%
+statement_list  :  DeclList FuncList
+			{
+				printf("\n}\n\n");
+			}
+                ;
+
+FuncList	:  Func			//Funcs not in yet
+		|  Func FuncList
+		;
+
+Func		:  Func '(' ParmList ')' ':' Type DeclList SBlock	//MAIN is forced, but will be changed for program 4's functions
+		|  MAIN
+			{
+				printf("\nmain()\n");
+				printf("{\n");
+				printf("\tinitstack();\n");
+			}
+		;
+//Parameters
+ParmList	:  ID
+		|  ID ',' ParmList
+		|  
+		;
+//Declarations
+DeclList	:  Decl
+		|  Decl ';' DeclList
+		|
+		;
+
+Decl		:  Type name
+			{
+				const_value = (int) $1;
+				decl_vari($1,$2);	//Declare the variable and assign global data
+			}
+		|  Type name '[' SizeList ']'
+			{
+				const_value = (int) $1;
+				const_value2 = (int) $4;
+				decl_vari_arr($1,$2,$4);	//Declare the array and assign global data
+			}
+		;
+
+SizeList	:  intLiteral
+			{
+				$$ = $1;
+			}
+		|  intLiteral ',' SizeList
+			{
+				c = calc_sizeList($1,$3);	//calculate the total size of the array parameters
+				$$ = c;
+			}
+		;
+
+Type		:  INT
+			{
+				$$ = (int) 4;	//return hardcoded size values for int, char, boolean, and void type variables
+			}
+		|  CHAR
+			{
+				$$ = (int) 1;
+			}
+		|  BOOL
+			{
+				$$ = (int) 1;
+			}
+		|  VOID
+			{
+				$$ = (int) 0;
+			}
+		|  UNSIGNED
+			{
+				$$ = (int) 2;
+			}
+		;
+
+SBlock		:  BEGINT DeclList Stmts END
+		;
+//Statements
+Stmts		:  S
+		|  S Stmts
+		;
+
+S		:  ID ASG E
+			{ 
+				$$ = $1;			//accesses the symbol or key ID name for the variable 
+				const_value = (int) $3;		//stores the final value of expression register
+				generate_copyExpr($1,$3);	//generates a print out for the expression
+			}
+		|  PRINTI '(' name ')'
+			{
+				printf("\tr%d = *(globaldata + %d);\n",$3->ID,$3->Offset);	//loads the symbol data into register
+				printf("\tprintInt(r%d);\n",(int)$3->ID);	//printInt(symbol);
+			}
+		|  PRINTI '(' ExprList ')'
+			{
+				printf("\tr%d = *(globaldata + r%d);\n",(int)$3,gOffsetCall);	//loads the symbol data into register
+				printf("\tprintInt(r%d);\n",(int)$3);	//printInt(Expression/Literal);
+			}
+		|  PRINTS '(' stringLiteral ')'
+			{
+				printf("\tprintString(%s);\n",$3);	//printString(literal);
+			}
+		|  PRINTC '(' name ')'
+			{
+				printf("\tprintChar(r%d);\n",(int)$3->ID);	//printChar(variable);
+			}
+		|  PRINTH '(' name ')'
+			{
+				printf("\tprintHex(r%d);\n",(int)$3->ID);	//printChar(variable);
+			}
+		|  PRINTH '(' ExprList ')'
+			{
+				printf("\tprintHex(r%d);\n",(int)$3);	//printChar(variable);
+			}
+		|  READI '(' AMP name ')'
+			{
+				printf("\treadInt(r%d);\n",(int)$4->ID);	//printChar(variable);
+			}
+		|  PRINTLINE '(' ')'
+			{
+				printf("\tprintLine();\n");	//prints a line space like using '\n'
+			}
+		|  ID ASG ConditionalExpr	//not used yet or ever?
+		|  IF  '(' ConditionalExpr ')' SBlock
+			{
+				printf("Endif%d:\n",(int)$3);	//End of if statement
+			}	
+		|  IF '(' ConditionalExpr ')' SBlock ELSE {printf("Endif%d:\n",(int)$3);} SBlock
+			{
+				//nothing, end of if/else statement
+			}	
+		|  DO intLiteral DoList Stmts Enddo
+			{
+				doString = $3;	//save string temporarily to variable
+				printf("\t%s\n",doString);	//print end of Do ConditonalExpr for do loop logic
+				printf("EndDoLoop:\n");		//end of Do loop, no ID is needed here
+			}
+		|  RETURN Primary	//not used yet
+		|  QUIT		//not used yet
+		;
+
+Enddo		:  intLiteral CONTINUE
+		;
+
+ConditionalExpr	:  RelOp
+			{
+				$$ = gIfLoopID;		//return current if Loop ID
+				gIfLoopID = gIfLoopID + 1;	//increment if Loop ID for the next if loop being parsed, if any
+			}	
+		|  NOT '(' ConditionalExpr ')'
+			{
+				$$ = (int)$3;
+			}
+		|  RelOp ANDT ConditionalExpr 
+			{
+				$$ = (int)$3;	//return current if Loop ID up the chain
+			}
+		/*|  ConditionalExpr ANDT '(' ConditionalExpr ')'	//Apparently creates conflicts with my grammar
+			{						//not in the test programs anyways, so i will not worry about it
+				$$ = (int)$4;	//return current if Loop ID up the chain
+			}
+		|  ConditionalExpr ORT '(' ConditionalExpr ')'
+			{
+				$$ = (int)$4;	//return current if Loop ID up the chain
+				printf("CompoundIfThen%d:\n",gIfLoopID);	//label the SBlock for the compoundIfThen logic created by the OR ConditionalExpr
+			}*/
+		|  RelOpN ORT ConditionalExpr 
+			{
+				$$ = (int)$3;	//return current if Loop ID up the chain
+				printf("CompoundIfThen%d:\n",gIfLoopID);	//label the SBlock for the compoundIfThen logic created by the OR ConditionalExpr
+			}
+		;
+
+DoList		:  name ASG E ',' E
+			{
+				printf("\tr%d = r%d;\n",(int)$1->ID,(int)$3);	//assign the symbol with the appropriate value for the do loop
+				$$ = generate_doLoop($1,$5);	//generate the end of Do Loop ConditionalExpr string
+				printf("\tr%d = 1;\n",gTempInc);		//the assumed increment ID
+				printf("\tr%d = r%d - r%d;\n",(int)$1->ID,(int)$1->ID,gTempInc);	//subtract the first increment to keep Do loop logic, Messy part of code
+				printf("StartDoLoop%d:\n",gDoLoopID);		//start the Do loop block
+				printf("\tr%d = r%d + r%d;\n",(int)$1->ID,(int)$1->ID,gTempInc);	//increment the assigned variable
+				gTempInc = gTempInc + 1;			//increment the register ID for the next assumed increment value, if any
+				gDoLoopID = gDoLoopID + 1;			//increment the Do Loop ID for future do loops in the program
+			}
+		|  name ASG E ',' E ',' E 
+			{
+				printf("\tr%d = r%d;\n",(int)$1->ID,(int)$3);	//assign the symbol with the appropriate value for the do loop
+				$$ = generate_doLoop($1,$5);			//generate the end of Do Loop ConditionalExpr string
+				printf("\tr%d = r%d - r%d;\n",(int)$1->ID,(int)$1->ID,(int)$7);		//subtract the first increment to keep Do loop logic, Messy part of code
+				printf("StartDoLoop%d:\n",gDoLoopID);		//start the Do loop block
+				printf("\tr%d = r%d + r%d;\n",(int)$1->ID,(int)$1->ID,(int)$7); 	//increment the assigned variable
+				gDoLoopID = gDoLoopID + 1;			//increment the Do Loop ID for future do loops in the program
+			}
+		;
+
+ExprList	:  E
+			{
+		    		$$ = $1;	//sends the register for the Expression statement back up the chain
+			}
+		|  E ',' ExprList	//grammar for variables within arrays, will calculate the offset to grab the correct data from global data where the array info is stored
+			{
+				c = assign_offset_temp();	//assign temporary register value
+				printf("\tr%d = r%d * r%d;\n",c,(int)$1,(int)$3);	//calculate the offset value for the variables in the array
+				$$ = c;				//send the temporary variable that holds the offset value up the chain
+			}
+		|  
+		;
+//Expression Parsing
+E		:  E BOP BitTerm
+			{
+				$$ = generate_bitwise($1,$2,$3);
+			}
+		|  BitTerm
+			{
+		    		$$ = $1;	//sends the register for the expo statement back up the chain
+			}
+		;
+
+BitTerm		:  BitTerm ShiftOp ShiftTerm
+			{
+				$$ = generate_shift($1,$2,$3);
+			}
+		|  ShiftTerm
+			{
+		    		$$ = $1;	//sends the register for the expo statement back up the chain
+			}
+		;
+
+ShiftTerm	:  ShiftTerm '+' Term
+			{	//parses the statement for Addition
+		    		c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = r%d + r%d;\n", c, (int) $1, (int) $3);	//outputs the proper machine code
+		     		$$ = c; 			//sends the temporary register back up the grammar chain  
+			}
+		|  ShiftTerm '-' Term
+			{	//parses the statement for Subtraction
+		    		c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = r%d - r%d;\n", c, (int) $1, (int) $3);	//outputs the proper machine code
+		     		$$ = c; 			//sends the temporary register back up the grammar chain  
+			}
+		|  Term
+			{
+		    		$$ = $1;	//sends the register for the expo statement back up the chain
+			}
+		;
+
+Term		:  Term '*' Factor
+			{	//parses the statement for Multiplication
+		    		c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = r%d * r%d;\n", c, (int) $1, (int) $3);	//outputs the proper machine code
+		     		$$ = c; 			//sends the temporary register back up the grammar chain  
+			}
+		|  Term '/' Factor
+			{	//parses the statement for Division
+		    		c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = r%d / r%d;\n", c, (int) $1, (int) $3);	//outputs the proper machine code
+		     		$$ = c; 			//sends the temporary register back up the grammar chain  
+			}
+		|  Term '%' Factor
+			{	//parses the statement for Modulation
+				char mod = '%';	//mod operator to char
+		    		c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = r%d %c r%d;\n", c, (int) $1, mod, (int) $3);	//outputs the proper machine code
+		     		$$ = c; 			//sends the temporary register back up the grammar chain  
+			}
+		|  Factor
+			{
+		    		$$ = $1;	//sends the register for the expo statement back up the chain
+			}
+		;
+
+Factor		:  Factor EXP UOperand
+			{	//parses the statement for Exponentiation
+		     		t = generate_EXP($1,$3);	//function that generates and prints the loop needed for calculating the exponential
+				$$ = t; 			//sends the temporary register back up the grammar chain 
+			}
+		|  UOperand
+			{
+		    		$$ = $1;	//sends the register for the expo statement back up the chain
+			}
+		;
+
+UOperand	:  UOp Primary
+			{
+				c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = ~ r%d;\n",c,(int) $2);	//outputs the proper machine code
+		     		$$ = c; 
+			}
+		|  Primary
+			{
+		    		$$ = $1;	//sends the register for the expo statement back up the chain
+			}
+		;
+
+Primary		:  ID
+			{
+		    		$$ = $1;	//sends the ID regester back up the grammar chain
+			}
+		|  ID '(' ExprList ')'	//not used yet
+		|  '(' E ')'
+			{
+		    		$$ = $2;	//sends the register for the expression statement back up the chain
+			}
+		|  intLiteral
+			{
+		    		c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = %d;\n", c, (int) $1);	//outputs the proper machine code
+		    		$$ = c; 			//sends the temporary register back up the grammar chain
+			}
+		|  TBOOL
+			{
+				c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = 1;\n", c);	//outputs the proper machine code
+		    		$$ = c; 			//sends the temporary register back up the grammar chain
+			}
+		|  FBOOL
+			{
+				c = assign_offset_temp();	//assigns a temporary register value
+		    		printf("\tr%d = 0;\n", c);	//outputs the proper machine code
+		    		$$ = c; 			//sends the temporary register back up the grammar chain
+			}
+		;
+
+ID		:  name
+			{
+		    		$$ = (int)$1->ID;	//sends the ID regester back up the grammar chain
+				c = assign_offset_temp();	//assigns a temporary register value
+				printf("\tr%d = %d;\n",c,$1->Offset);	//set offset to temporary offset register
+				gOffsetCall = c;	//set the offset register
+				
+			}
+		|  name '[' ExprList ']'
+			{
+				gOffsetCall = 4;	//register where the array offset is stored
+				generate_arr($1,$3);	//generate the array code and pull the global data
+				$$ = gOffsetTemp;	//return the calculated offset register variable for the array
+			}
+		;
+//Conditional Expressions that contradict the actual parsed code for easier if statement logic implementation
+//mostly used for singular if statements and 'AND' statements, if(contradict is true) do not proceed with if SBlock, if(false) proceed
+RelOp		:  E gt E
+			{
+				printf("\tif(r%d <= r%d) goto ENDif%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E ge E
+			{
+				printf("\tif(r%d < r%d) goto ENDif%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E le E
+			{
+				printf("\tif(r%d > r%d) goto ENDif%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E lt E
+			{
+				printf("\tif(r%d >= r%d) goto ENDif%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E eq E
+			{
+				printf("\tif(r%d != r%d) goto ENDif%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E neq E
+			{
+				printf("\tif(r%d == r%d) goto ENDif%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		;
+//Conditional Expressions that accept the actual parsed code for easier compound if statement logic implementation
+//mostly used for 'OR' ConditionalExpr, if(contradict is true) proceed with if SBlock, if(false) do not proceed yet and check the next ConditionalExpr
+RelOpN		:  E gt E
+			{
+				printf("\tif(r%d > r%d) goto CompoundIfThen%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E ge E
+			{
+				printf("\tif(r%d >= r%d) goto CompoundIfThen%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E le E
+			{
+				printf("\tif(r%d <= r%d) goto CompoundIfThen%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E lt E
+			{
+				printf("\tif(r%d < r%d) goto CompoundIfThen%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E eq E
+			{
+				printf("\tif(r%d == r%d) goto CompoundIfThen%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		|  E neq E
+			{
+				printf("\tif(r%d != r%d) goto CompoundIfThen%d;\n", (int)$1, (int)$3, gIfLoopID);
+			}
+		;
+
+BOP		:  AMP		
+			{
+				$$ = (int) 1;	//Biwise function ID
+			}
+		|  BOR
+			{
+				$$ = (int) 2;	//Biwise function ID
+			}
+		|  XOR
+			{
+				$$ = (int) 3;	//Biwise function ID
+			}
+		;
+
+ShiftOp		:  LSHIFT
+			{
+				$$ = (int) 1;	//ShiftOp function ID
+			}
+		|  RSHIFT
+			{
+				$$ = (int) 2;	//ShiftOp function ID
+			}
+		;
+
+UOp		:  INCREMENT	//not used for program 3
+		|  DECREMENT	//not used for program 3
+		|  AMP		//not used for program 3
+		|  TILDA
+		;
+
+
+%%
+
+generate_arr(symbol,value)	//stores the called array into temporary register variable and returns the register value
+	SymbolTableElement symbol;
+	int value;
+{	//checks what variable type
+	if(symbol->type == "int")
+	{
+		t = assign_offset_temp();
+		printf("\tr4 = r%d * 4;\n",value);	//calculates the array parameter's offset size
+		printf("\tr4 = r4 + %d;\n",symbol->min);//adds the minimum offset value that was assigned when the array was declared
+		printf("\tr%d = *(globaldata + r4);\n",t);	//loads the array data into register
+		gOffsetTemp = t;			//returns the register value
+	}
+	else if(symbol->type == "char")
+	{
+		t = assign_offset_temp();
+		printf("\tr4 = r%d * 1;\n",value);	//calculates the array parameter's offset size
+		printf("\tr4 = r4 + %d;\n",symbol->min);//adds the minimum offset value that was assigned when the array was declared
+		printf("\tr%d = *(globaldata + r4);\n",t);	//loads the array data into register
+		gOffsetTemp = t;			//returns the register value
+	}
+	else if(symbol->type == "boolean")
+	{
+		t = assign_offset_temp();
+		printf("\tr4 = r%d * 1;\n",value);	//calculates the array parameter's offset size
+		printf("\tr4 = r4 + %d;\n",symbol->min);//adds the minimum offset value that was assigned when the array was declared
+		printf("\tr%d = *(globaldata + r4);\n",t);	//loads the array data into register
+		gOffsetTemp = t;			//returns the register value
+	}
+	else if(symbol->type == "void")
+	{
+		t = assign_offset_temp();
+		printf("\tr4 = r%d * 0;\n",value);	//calculates the array parameter's offset size
+		printf("\tr4 = r4 + %d;\n",symbol->min);//adds the minimum offset value that was assigned when the array was declared
+		printf("\tr%d = *(globaldata + r4);\n",t);	//loads the array data into register
+		gOffsetTemp = t;			//returns the register value
+	}
+	else if(symbol->type == "unsigned")
+	{
+		t = assign_offset_temp();
+		printf("\tr4 = r%d * 4;\n",value);	//calculates the array parameter's offset size
+		printf("\tr4 = r4 + %d;\n",symbol->min);//adds the minimum offset value that was assigned when the array was declared
+		printf("\tr%d = *(globaldata + r4);\n",t);	//loads the array data into register
+		gOffsetTemp = t;			//returns the register value
+	}
+}
+
+generate_copyExpr(value1,value2)
+	int value1;
+	int value2;
+{
+	//generates and prints out the statement for the final expression assignment to the correct register
+	printf("\tr%d = r%d\n", value1, value2);
+	printf("\t*(globalData + r%d) = r%d;\n", gOffsetCall, value1);	//stores assigned variable expression into global data
+}
+
+//generates the Exponential Math Loop
+int generate_EXP(value1,value2)
+	int value1;
+	int value2;
+{
+	int temp;	//temporary int
+	temp = assign_offset_temp();	
+	printf("\tr1 = 1;\n");	//temporary register assigned an increment value
+	printf("EXPLoop%d:\n",gEXPLoopID);	//start Exponential loop
+	printf("\tr%d = r%d * r%d;\n",temp,value1,value1);	//calculate iteration of Exponential math
+	printf("\tr1 = r1 + 1;\n");		//increment Exponential counter
+	printf("\tif(r1 <= r%d) goto EXPLoop%d;\n",value2,gEXPLoopID);	//ConditionalExpr to check if loop is finished
+	gEXPLoopID = gEXPLoopID + 1;		//increment Exponential loop ID for future Exponantial calculations
+	return temp;				//return the temporary register value
+}
+
+int generate_bitwise(exprReg1,bitType,exprReg2)
+	int exprReg1;
+	int bitType;
+	int exprReg2;
+{
+	int temp;	//temporary int
+	temp = assign_offset_temp();
+	if(bitType == 1)
+	{
+		printf("\tr%d = r%d & r%d\n",temp,exprReg1,exprReg2);	//Bitwise AND
+	}
+	else if(bitType == 2)
+	{
+		printf("\tr%d = r%d | r%d\n",temp,exprReg1,exprReg2);	//Bitwise OR
+	}
+	else if(bitType == 3)
+	{
+		printf("\tr%d = r%d ^ r%d\n",temp,exprReg1,exprReg2);	//Bitwise XOR
+	}
+	return temp;
+}
+
+int generate_shift(exprReg1,bitType,exprReg2)
+	int exprReg1;
+	int bitType;
+	int exprReg2;
+{
+	int temp;	//temporary int
+	temp = assign_offset_temp();
+	printf("\tr1 = 1;\n");	//temporary register assigned an increment value
+	printf("shift%d:\n",gShiftLoopID);	//start Shift Loop
+	if(bitType == 1)
+	{
+		printf("\tr%d = r%d * 2;\n",temp,exprReg1);	//left shift
+	}
+	else if(bitType == 2)
+	{
+		printf("\tr%d = r%d / 2;\n",temp,exprReg1);	//right shift
+	}
+	printf("\tr1 = r1 + 1;\n");		//increment shift loop counter
+	printf("\tif(r1 <= r%d) goto shift%d;\n",exprReg2,gShiftLoopID);	//loop the shift mult or div
+	printf("ENDshift%d:\n",gShiftLoopID);	//identify the end of the shift
+	gShiftLoopID = gShiftLoopID + 1;	//increment shift ID
+	return temp;
+}
+
+int assign_offset_reg()
+{
+	//determines a self incrementing offset number for each register
+
+	static int register_number;
+	register_number = (register_number + 1) % 28;
+	return register_number + 4;
+}
+
+int assign_offset_temp()
+{
+	//determines a self incrementing offset number for each temporary register
+
+	static int register_number;
+	register_number = (register_number + 1) % 100;
+	return register_number + 32;
+}
+
+char *start_expression_string(value)	//creates and returns a string to act as the register
+	int value;
+{
+	char buffer[10];
+	char *result;
+	result = (char *)malloc(4);  //allocates enough memory
+
+	strcpy(result,"r");
+	sprintf(buffer,"%d",value);	//gets the symbol's offset to act as their register value
+	strcat(result,buffer);
+
+	return result;
+}
+
+//generates a string for the final do Loop SBlock statement
+char *generate_doLoop(symbol,max)
+	SymbolTableElement symbol;
+	int max;
+{
+	char bufferMin[10];	//initialize string buffers
+	char bufferMax[10];
+	char bufferLoop[10];
+	char *result;		//initialize and alloc memory for dynamic strings
+	result = (char *)malloc(30);
+	char *result1;
+	result1 = (char *)malloc(30);
+	char *result2;
+	result2 = (char *)malloc(30);
+	char *result3;
+	result3 = (char *)malloc(30);
+	strcpy(result,"if(r");
+	strcpy(result1," < r");
+	strcpy(result2,") goto StartDoLoop");
+	strcpy(result3,";");
+	sprintf(bufferMin,"%d",symbol->ID);	//symbol register value
+	sprintf(bufferMax,"%d",max);		//maximum value for do loop increments register
+	sprintf(bufferLoop,"%d",gDoLoopID);	//Do Loop ID
+	strcat(result,bufferMin);
+	strcat(result,result1);
+	strcat(result,bufferMax);
+	strcat(result,result2);
+	strcat(result,bufferLoop);	//Final outcome string should look like this:
+	strcat(result,result3);		//printf("if(r%d <= r%d) goto StartDoLoop%d;",min,max,gDoLoopID);
+	return result;	//return resultant ConditionalExpr string
+}
+
+//Declares the variable and stores it in the globalData with the current offset value
+decl_vari(type, symbol)
+	int type;
+	SymbolTableElement symbol;
+{
+	symbol->Offset = globalOffset;	//sets initial offset value
+	symbol->min = globalOffset;	//sets minimum offset value
+	printf("\t*(globalData + %d) = r%d;\n", symbol->Offset, symbol->ID);	//prints declaration and storage
+	//determines the type of the variable
+	if(type == 4)
+	{
+		symbol->type = "int";	//sets the symbol type
+		globalOffset = globalOffset + type;	//calculates the offset created by the new variable and sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+		symbol->size = globalOffset - symbol->min;	//set the size of the symbol variable 
+	}
+	else if(type == 1)
+	{
+		symbol->type = "char";	//sets the symbol type
+		globalOffset = globalOffset + type;	//calculates the offset created by the new variable and sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+		symbol->size = globalOffset - symbol->min;	//set the size of the symbol variable 
+	}
+	else if(type == 1)
+	{
+		symbol->type = "boolean";	//sets the symbol type
+		globalOffset = globalOffset + type;	//calculates the offset created by the new variable and sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+		symbol->size = globalOffset - symbol->min;	//set the size of the symbol variable 
+	}
+	else if(type == 0)
+	{
+		symbol->type = "void";	//sets the symbol type
+		globalOffset = globalOffset + type;	//calculates the offset created by the new variable and sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+		symbol->size = globalOffset - symbol->min;	//set the size of the symbol variable 
+	}
+	else if(type == 2)
+	{
+		symbol->type = "unsigned";	//sets the symbol type
+		globalOffset = globalOffset + 4;	//calculates the offset created by the new variable and sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+		symbol->size = globalOffset - symbol->min;	//set the size of the symbol variable 
+	}
+}
+
+//Declares the variable array and stores it in globalData, also calculates the offset for the array parameters
+decl_vari_arr(type, symbol, size)
+	int type;
+	SymbolTableElement symbol;
+	int size;
+{
+	symbol->Offset = globalOffset;	//sets initial offset value
+	printf("\t*(globalData + %d) = r%d;\n", symbol->Offset, symbol->ID);	//prints declaration and storage
+	if(type == 4)
+	{
+		symbol->type = "int";	//sets the symbol type
+		symbol->min = globalOffset;
+		size = size * type;	//calculates the offset based on the size
+		symbol->size = size;	//sets the size dimension
+		globalOffset = globalOffset + size;	//sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+	}
+	else if(type == 1)
+	{
+		symbol->type = "char";	//sets the symbol type
+		symbol->min = globalOffset;	
+		size = size * type;	//calculates the offset based on the size
+		symbol->size = size;	//sets the size dimension
+		globalOffset = globalOffset + size;	//sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+	}
+	else if(type == 1)
+	{
+		symbol->type = "boolean";//sets the symbol type
+		symbol->min = globalOffset;
+		size = size * type;	//calculates the offset based on the size
+		symbol->size = size;	//sets the size dimension
+		globalOffset = globalOffset + size;	//sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+	}
+	else if(type == 0)
+	{
+		symbol->type = "void";	//sets the symbol type
+		symbol->min = globalOffset;
+		size = size * type;	//calculates the offset based on the size
+		symbol->size = size;	//sets the size dimension
+		globalOffset = globalOffset + size;	//sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+	}
+	else if(type == 2)
+	{
+		symbol->type = "unsigned";	//sets the symbol type
+		symbol->min = globalOffset;
+		size = size * 4;	//calculates the offset based on the size
+		symbol->size = size;	//sets the size dimension
+		globalOffset = globalOffset + size;	//sets the next variables starting offset
+		symbol->max = globalOffset - 1;		//set the maximum offset value
+	}
+}
+
+//Calculates the size of the parameter list for an array
+int calc_sizeList(size1,size2)
+	int size1;
+	int size2;
+{
+	static int result;	//initialize return variable
+	result = size1 * size2;	//multiply array parameters
+	return result;		//return result
+}
+
+int yyerror(s)	//compiler error check
+char *s;
+{
+        fflush(stdout);
+        printf("Syntax Error %s\n",s);
+}

@@ -1,0 +1,38 @@
+#order-button{
+	background-color: #0d3149;
+	margin-top: 10px;
+	width: 220px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 16pt;
+	text-align: center;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+
+#button{	
+	background-color: #0d3149;
+	margin-top: 10px;
+	width: 220px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 16pt;
+	text-align: center;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;		
+	border: none;	
+}
+
+
+#help-button{
+	background-color: #0d3149;
+	margin-top: 10px;
+	width: 60px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 10pt;
+	text-align: center;
+	color: white;
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+} 

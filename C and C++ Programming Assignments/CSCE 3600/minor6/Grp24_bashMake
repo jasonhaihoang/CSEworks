@@ -1,0 +1,31 @@
+#//******************************************************************************
+#//
+#//	CSCE 3600 - Dr. Sweany
+#//	Minor Program 6 - Sockets
+#//
+#//	The purpose of this program was to write a server that gives out 5 digit
+#//	Ticket ID numbers to 2 clients. The clients can also cancel these tickets.
+#//	Ticket Numbers are randomly generated and sockets are used to communicate
+#//	the server and the client. The program daemonizes the server by using
+#//	a fork function, thus the client-server programs can operate on one 
+#//	terminal.
+#//
+#//	This is the BASH MAKEFILE file -  to be used to compile and run
+#//
+#//	This program was written and completed by:
+#//	Group 24 - Jason Hoang and Austin Harris
+#//
+#//******************************************************************************
+
+gcc -o server server.c
+
+gcc -o client1 client1.c
+
+gcc -o client2 client2.c
+
+./server 12345
+
+./client1 12345
+
+./client2 12345
+

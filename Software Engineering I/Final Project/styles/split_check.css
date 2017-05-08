@@ -1,0 +1,120 @@
+body {
+	margin-top: 0px;
+	background-color: #46667a;
+	
+}
+
+img{
+    	position: fixed;
+}
+
+
+#ribbon{
+	background-color: #0d3149;
+	position: absolute;
+	left: 70px;
+	width: 40px;
+	height: 720px;
+	top: 0px;
+}
+
+
+#interface{
+    	position: absolute;
+    	margin-left: 40px;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+}
+
+
+p{
+	font-family: Arial;
+	font-size: 25px;
+	color: white;
+	margin-left: 72px;	
+	margin-top: 10px;
+}
+
+
+#Log_out{
+	background-color: #0d3149;
+	color: white;
+	border: none;
+	height:35px;
+	width: 80px;
+	font-size: 18px;
+	font-family: Arial;
+    	font-weight: 700;
+	position: absolute;
+    	margin-left: 450%;
+	margin-top: 2px;
+	padding: 5px 7px 7px 5px;
+    	margin-right: 0px;
+    	top:3px;
+    	cursor:pointer;
+}
+
+
+#order_list{
+	background-color: #0d3149;
+	color: white;
+	border: none;
+	height: 400px;
+    	float:left;
+    	width:300px;
+	font-size: 16px;
+	font-family: Arial;
+    	margin-left: 72px;
+	margin-top: 1px;
+	padding: 5px 7px 7px 5px;
+	overflow:auto;
+
+}
+
+
+#split_list{
+	background-color: #0d3149;
+	color: white;
+	border: none;
+	height: 400px;
+    	float:left;
+    	width:300px;
+	font-size: 16px;
+	font-family: Arial;
+    	margin-left: 72px;
+	margin-top: 1px;
+	padding: 5px 7px 7px 5px;
+	overflow:auto;
+
+}
+    
+	
+#pay_field{
+	background-color: #0d3149;
+	color: white;
+	border: none;
+	height: 200px;
+	width: 300px;
+	text-align: left;
+	font-size: 25px;
+	font-family: Arial;;
+    	margin-left: 72px;
+	padding: 7px 7px 1px 7px;
+}
+
+
+#pay_now{
+	background-color: #0d3149;
+	color: white;
+	border: none;
+	height: 30px;
+	width: 100px;
+	text-align: left;
+	font-size: 25px;
+	font-family: Arial;
+    	font-weight: 500;
+    	margin-left: 243%;
+	margin-top: 220%;
+	padding: 7px 7px 1px 7px;
+    	cursor:pointer;
+}

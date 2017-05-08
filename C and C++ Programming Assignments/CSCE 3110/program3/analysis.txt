@@ -1,0 +1,78 @@
+/***************
+Name:	Jason Hoang
+Course:	CSCE 3110 - Dr. O'Neill
+Assignment:	PROGRAM 3 - Binary Search Trees - Analysis
+Due Date:	7/17/2015
+****************/
+
+ANALYSIS
+
+These programs were built to observe and experiment with a few deletion strategies for a Binary Tree. Each deletion 
+experiment was focused on deleting a node that has two children, then replacing the deleted node with the predecessor 
+or successor, and finally deleting the node recursively. The first strategy(A) required to replace the deleted node with 
+the largest value node from the LEFT subtree. The Second strategy(B) requires the deletion process to alternate between 
+which subtree(left or right) to traverse and find the replacement value for the node being deleted. The third strategy(C) 
+required the program to alternate randomly in selecting which subtree to pull the replacement from.
+
+Strategy A
+	In this strategy I tested multiple forms of how a single deletion of a node with two children could affect the code
+	and the overall binary tree. Anywhere between the left subtree consisting of only one node, having a significant 
+	linear pattern, having several series of nodes with 2 children, and a couple of other variations based on the ones
+	previously tested. Most of these tests were for the purpose of testing the recursive deletion process and how it 
+	was handled by the program. These tests were also experimented using the other strategies as well to get a rough
+	conclusion of the overall data and make comparisons.
+
+	Binary Trees do not focus on self balancing because the data could require to be heavy on one side due to the 
+	nature of the tree. So these strategies were implemented without a true balancing function, but we can still 
+	observe how the tree is reformed after deletions are made.
+
+	In this strategy, we can see that since we're only replacing from the left subtree that a right heavy tree will 
+	never be balanced and a left heavy tree will need multiple deletions to eventually become balanced with the right 
+	side. Basically, this strategy's natural balancing is non-existent in the big picture.
+
+Strategy B
+	This strategy used all of the same experiments and tests from strategy A with the addition of alternating the 
+	deletions between pulling the replacement from the left subtree and the right subtree. This meant that multiple 
+	deletions were needed to fully test the algorithm. 
+
+	In terms of balancing, this tree has a better process than strategy A, but it is still not proper for true balancing
+	of a binary tree. The process is better because now the right subtree is utilized along with the left. The 
+	alternating is fixed, so you could think of the program replacing the nodes back and forth over and over again, 
+	ultimately getting nowhere in balancing. But of course, the program is not going to delete the same node over and 
+	over again the whole time. So there is a better chance for this program to balance the whole tree while deleting, 
+	but there are no serious guarantees.
+
+Strategy C
+	This strategy will again use all of the previous experiments and tests with the addition of strategy B's alternating
+	process. The only change here is that the program will alternate between the subtrees at random.
+	
+	This strategy has the best chance of balancing the tree in the end because of how it randomly alternates between 
+	which subtree to pull the replacement from. This strategy is still extremely faulty like the other two strategies
+	because it is completely random and different nodes need to be deleted across the tree. But because the alternating 
+	is random, the algorithm has a better chance of picking the best subtree to pull the replacement from and also 
+	progress towards balancing the tree as opposed to fixed alternating.
+
+Overall
+	These strategies have each demonstrated their stregnths and weaknesses, but there are a couple that stand out in 
+	terms of what we were analyzing. 
+	
+	When it comes to balance, Strategy C is the best because of it's random alternating. However, the best situation
+	and conditions are needed for the strategy to be the best, so basically, strategy C has the best chance of achieving
+	balance.
+
+	Since these programs are simple with basic trees, the timing of how much CPU time was used for each deletion 
+	strategy was difficult to calculate(not to mention how the current VM's don't calculate the CPU time properly). 
+	However, we can look at the code and the logic behind it while comparing them with the other strategies and 
+	experiments to make rough estimations with the timing. In these cases we could consider strategy A taking the least 
+	time because it has slightly less to deal with while calculating the deletion process, while the other strategies 
+	need to alternate between two different algorithms to satisfy the strategy. The additions are very slight in these 
+	programs so there shouldn't be too much of a discrepency between them. If anything would change how these programs
+	take up time it would be the number of recursive calls that each program needs to make in order to delete a node.
+	This factor would still keep each program close together in terms of CPU time because the methods of deletion are 
+	basically the same process with A having the slight advantage due to simplicity.
+
+I have hardcoded basic binary trees for each program to use and demonstrate these strategies. There are some print 
+statements that notify the user what the program is basically doing. I have also built the code so that you can alter the
+hardcoded tree for your own testing and experiments. I was told that either there was one virtual machine where the clock 
+functions worked properly or that none of the virtual machines were capable of using the clock functions properly, so I 
+resolved to using basic logic to determine my CPU timing analysis.
