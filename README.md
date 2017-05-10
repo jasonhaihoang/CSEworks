@@ -1,10 +1,12 @@
-# College-Software-Engineering-Works
+# College Software Engineering Works
 5/5/2017
 
 This Repository will be the online storage destination for all of my major university programming assignments 
 and software engineering projects. It serves as a temporary programming portfolio.
 
-=Software Engineering Projects= \n
+
+=Software Engineering Projects=
+
 These projects are organized into named folders mostly by class. These project folders should contain various 
 design documents alongside the actual code implementations. You will be able to see how each class progressed my 
 design knowledge and depth.
@@ -12,7 +14,9 @@ design knowledge and depth.
 - Software Engineering I
 - Software Engineering II
 
-=Game Programming Projects= \n
+
+=Game Programming Projects=
+
 These game projects were designed and developed throughout the entire semester for the class, starting with the pitch
 and then followed up with milestones before the final submission presentation. Here I learned about several elements 
 within multiple game engines that are required to define and refine within a game alongside some fun game mechanics 
@@ -34,6 +38,7 @@ I exe folder, that was composed by me. The use of these assests were solely for 
 - Game Programming I exe(DirectX)
 - Game Math and Physics exe(Box2D)
 - Game Programming II (Unreal 4)
+
 
 The last couple of folders within this repository contain various major programming assignments over the course of my 
 computer science degree that I threw in to justify my extensive experience with C and C++ in pursuit of profecciency.
